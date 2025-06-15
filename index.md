@@ -22,9 +22,10 @@ class:  jupiter-bg   # <-- add this line
   />
   <p style="margin: 0.5em 0 0 0;">
     <strong>Roberto Tejada Arevalo</strong><br>
-    Ph.D. Candidate<br>
+    Final Year Ph.D. Candidate<br>
     <a href="https://web.astro.princeton.edu/" target="_blank" rel="noopener">
-      Department of Astrophysical Sciences
+      Department of Astrophysical Sciences<br>
+      Princeton University
     </a>
   </p>
 </div>

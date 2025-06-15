@@ -1,7 +1,6 @@
-title: "Roberto Tejada Arevalo"
+title:   "Roberto (Rob) Tejada Arevalo"
 tagline: "Planetary interiors & exoplanet evolution"
-theme: minima           # or minimal-mistakes-jekyll, al-folio, etc.
-author:
-  name: "Rob Tejada"
-  email: "arevalo(at)princeton.edu"
-  google scholar: "[COMING SOON]"
+theme:   minima
+
+author:  ""                      # ← keep this empty
+email:   "arevalo(AT)princeton.edu"

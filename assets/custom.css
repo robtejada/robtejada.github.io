@@ -73,3 +73,14 @@ h2, h3 {
   color: #fff;            /* adjust to taste */
 }
 
+/* --- Site title colour --------------------------------------------- */
+.site-title,
+.site-title:visited {          /* normal & visited states */
+  color: #ffffff !important;   /* white text – change the hex to taste   */
+}
+
+.site-title:hover,
+.site-title:focus {            /* on hover / keyboard focus */
+  color: #aecbfa !important;   /* light-blue accent – optional           */
+}
+

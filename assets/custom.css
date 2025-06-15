@@ -1,0 +1,75 @@
+/* Remove any direct html/body background you had before */
+html, body {
+  background: none;
+}
+
+/* Put the planet image behind everything at 30% opacity */
+body::before {
+  content: "";
+  position: fixed;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: url('/images/jupiter_clouds.JPG') no-repeat center center fixed;
+  background-size: cover;
+  opacity: 0.8;       /* ← adjust between 0 (invisible) and 1 (fully opaque) */
+  z-index: -1;
+}
+
+/* (Optional) Keep a dark overlay so text pops */
+body::after {
+  content: "";
+  position: fixed;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: rgba(0,0,0,0.4);
+  pointer-events: none;
+  z-index: -1;
+}
+
+/* Rest of your text-color, nav, heading rules… */
+body {
+  color: rgba(255, 255, 255, 0.9);
+}
+
+/* Headings fully white for extra contrast */
+h1, h2, h3, h4, h5, h6 {
+  color: #fff;
+}
+
+/* Link styling */
+a, a:visited {
+  color: #aecbfa;               /* light blue, tweak as you like */
+}
+a:hover, a:focus {
+  color: #fff;
+  text-decoration: underline;
+}
+
+/* (Optional) If your content sits on a semi-transparent overlay,
+   you can also give it a darker backdrop for readability: */
+.content, .post-content {
+  background-color: rgba(0, 0, 0, 0.4);
+  padding: 1rem;
+  border-radius: 0.5rem;
+}
+
+/* Lighten nav links */
+.site-nav a,
+.site-nav a:visited {
+  color: #fff;            /* white nav text */
+}
+.site-nav a:hover,
+.site-nav a:focus {
+  color: #aecbfa;         /* or any accent color you like */
+}
+
+/* Lighten the page title (“Welcome”) */
+.page-title,
+.page-heading,
+h1.page-title {
+  color: #fff;            /* white for your main headings */
+}
+
+/* And if you have sub‐section headings like “About” */
+h2, h3 {
+  color: #fff;            /* adjust to taste */
+}
+

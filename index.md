@@ -31,7 +31,7 @@ title: "Welcome"
 
 ## Background
 
-I am a planetary modeler broadly interested in planetary evolution, formation, and internal dynamics. Born in El Salvador, I immigrated to the United States with my mother and sister at age 10. My academic journey has been non-traditional: I began my higher education at a community college three years after graduating from high school. Prior to pursuing academia, I worked in the fast-food industry and later in non-profit organizations. Though I aspired to become an astrophysicist since high school, achieving this goal initially seemed unattainable due to my circumstances. Now, as a Ph.D. candidate, I am committed not only to advancing my research but also to mentoring and supporting others from diverse backgrounds on their academic journeys.
+I am a planetary modeler broadly interested in planetary evolution, formation, and internal dynamics. My academic journey has been non-traditional: I began my higher education at a community college three years after graduating from high school. Prior to pursuing academia, I worked in the fast-food industry and later in non-profit organizations. Though I aspired to become an astrophysicist since high school, achieving this goal initially seemed unattainable due to my circumstances. Now, as a Ph.D. candidate, I am committed not only to advancing my research but also to mentoring and supporting others from diverse backgrounds on their academic journeys.
 
 ## Hobbies
 

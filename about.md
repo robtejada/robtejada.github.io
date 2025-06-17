@@ -5,7 +5,7 @@ permalink: /about/    # gives you robtejada.github.io/about/
 ---
 
 ## General Interests  <!-- WHY: committees scan the first 100 words -->
-I’m a **final-year PhD candidate in astrophysics at Princeton University** working with Prof. **Adam Burrows**.
+I’m a **final-year PhD candidate** in astrophysics at Princeton University working with Prof. Adam Burrows.
 A better understanding of the gas giants in our Solar System will grant us a better understanding of the formation and evolution of gas giant exoplanets more broadly.
 As a result, my thesis work thus far has encompassed the evolution of Jupiter, Saturn, (and soon) Uranus and Neptune.
 I plan to extend this work to sub-Neptunes and other gas giant exoplanets in the near future.

@@ -16,24 +16,39 @@ I will be on the academic job market in **Fall 2025**.
 ### Interior evolution of Uranus and Neptune
 Tejada Arevalo et al. (2025b; arxiv link comming soon) models the evolution of Uranus and Neptune informed by formation models using methane-ammonia-water equation of state mixtures under the influence of convective mixing. Here I found that while Uranus and Neptune could have formed with a similar composition gradient, their initial entropy/thermal profiles determine whether these convectively mix or not. I propose here that the difference between the luminosities of Uranus and Neptune could be due to convective mixing of their interior structures: Uranus can retain its profile gradients, and Neptune could have mixed almost entirely, leading to Neptune's adiabatic cooling. This proposes a simple and unified explanation to the long standing puzzle of why their luminosities are so different despite both planets appearing similar in many other aspects.
 
-Image credit: NASA, ESA, Mark Showalter (SETI Institute), Amy Simon (NASA-GSFC), Michael H. Wong (UC Berkeley), Andrew I. Hsu (UC Berkeley)
+<span style="font-size: 0.6em;">
+    Image credit: NASA, ESA, Mark Showalter (SETI Institute), Amy Simon (NASA-GSFC), Michael H. Wong (UC Berkeley), Andrew I. Hsu (UC Berkeley).
+</span>
+
 ![tejada2025b](/images/uranus_neptune.JPG)
 
 ### Interior evolution of Jupiter and Saturn
-[Tejada Arevalo et al. (2025a)](https://iopscience.iop.org/article/10.3847/1538-4357/ada030) and [Sur et al. (2025)](https://iopscience.iop.org/article/10.3847/2041-8213/adad62) investigated the non-adiabatic and inhomogeneous evolution of Jupiter and Saturn in the presence of helium rain and extended or "fuzzy" cores. [Tejada Arevalo et al. (2025)](https://iopscience.iop.org/article/10.3847/1538-4357/ada030) found that if Jupiter has a fuzzy core, such extended region would convectively mix in evolutionary timescales. If Jupiter's fuzzy core as measured by *Juno* is a relic from formation, then Jupiter could have started with a colder interior rather than traditional hot start models. The figure below [Tejada Arevalo et al. (2025)](https://iopscience.iop.org/article/10.3847/1538-4357/ada030) is an example of our preferred evolution model matching the radius, effective temperature, atmospheric helium abundance, and outer metallicity of Jupiter which retains an extended core. The color lines are various ages of the model. Evolution models have been used to constrain the demixing temperature of hydrogen and helium in the past. These models predict higher demixing temperatures, closer to experimental results (see paper for more). Illustration credit bellow goes to Helled & Stevenson (2024).
+[Tejada Arevalo et al. (2025a)](https://iopscience.iop.org/article/10.3847/1538-4357/ada030) and [Sur et al. (2025)](https://iopscience.iop.org/article/10.3847/2041-8213/adad62) investigated the non-adiabatic and inhomogeneous evolution of Jupiter and Saturn in the presence of helium rain and extended or "fuzzy" cores. [Tejada Arevalo et al. (2025)](https://iopscience.iop.org/article/10.3847/1538-4357/ada030) found that if Jupiter has a fuzzy core, such extended region would convectively mix in evolutionary timescales. If Jupiter's fuzzy core as measured by *Juno* is a relic from formation, then Jupiter could have started with a colder interior rather than traditional hot start models. The figure below [Tejada Arevalo et al. (2025)](https://iopscience.iop.org/article/10.3847/1538-4357/ada030) is an example of our preferred evolution model matching the radius, effective temperature, atmospheric helium abundance, and outer metallicity of Jupiter which retains an extended core. The color lines are various ages of the model. Evolution models have been used to constrain the demixing temperature of hydrogen and helium in the past. These models predict higher demixing temperatures, closer to experimental results (see paper for more).
+
+<span style="font-size: 0.6em;">
+    Illustration credit bellow goes to Helled & Stevenson (2024).
+</span>
 
 ![tejada2025a](/images/2025_fig.JPG)
 ![tejada2025a](/images/jupiter_saturn_fuzzycore.JPG)
 
 ### Stability Characterization of V1298 Tau
-[Tejada Arevalo et al. (2022)](https://iopscience.iop.org/article/10.3847/2041-8213/ac70e0) focused on the orbital stability of the gas giants in the compact exoplanet system V1298 Tau. We found that the mass and eccentricity of third planet of the young V1298 Tau multi-planet system (V1298 Tau b) could be too large as indicated by early RV measurements. This was inferred by assessing the long-term stability of the system, finding that a lower mass of V1298 Tau b is likely for the system to survive to its current ~20 Myr age. In the figure below, red configurations are unstableCredit for these images go to Gabriel Pérez Díaz, SMM (IAC) and NASA/JPL.
+[Tejada Arevalo et al. (2022)](https://iopscience.iop.org/article/10.3847/2041-8213/ac70e0) focused on the orbital stability of the gas giants in the compact exoplanet system V1298 Tau. We found that the mass and eccentricity of third planet of the young V1298 Tau multi-planet system (V1298 Tau b) could be too large as indicated by early RV measurements. This was inferred by assessing the long-term stability of the system, finding that a lower mass of V1298 Tau b is likely for the system to survive to its current ~20 Myr age. In the figure below, red configurations are unstable.
+
+<span style="font-size: 0.6em;">
+    Credit for these images go to Gabriel Pérez Díaz, SMM (IAC) and NASA/JPL.
+</span>
 
 ![tejada2022](/images/2022_fig.JPG)
 ![tejada2022](/images/v1298tau_illustration.JPG)
 ![tejada2022](/images/v1298tau_system.JPG)
 
 ### Tidal Spin-Up of Hot Jupiter Host Stars
-[Tejada Arevalo et al. (2021)](https://iopscience.iop.org/article/10.3847/1538-4357/ac1429) compared the measured rotation periods and velocities of hot Jupiter host stars with those of cold Jupiter and small planet host stars. We found that hot Jupiter host stars spin faster than cold Jupiter or other host stars, casting additional nuance into the inferred ages of stars with stellar models. In the figure below, blue squares are spectroscopically measured rotation rates of hot Jupiter hosts and the orage are the same for the control samples. Credit for the artist's impression goes to the Wikipedia Commons.
+[Tejada Arevalo et al. (2021)](https://iopscience.iop.org/article/10.3847/1538-4357/ac1429) compared the measured rotation periods and velocities of hot Jupiter host stars with those of cold Jupiter and small planet host stars. We found that hot Jupiter host stars spin faster than cold Jupiter or other host stars, casting additional nuance into the inferred ages of stars with stellar models. In the figure below, blue squares are spectroscopically measured rotation rates of hot Jupiter hosts and the orage are the same for the control samples.
+
+<span style="font-size: 0.6em;">
+    Credit for the artist's impression goes to the Wikipedia Commons.
+</span>
 
 ![tejada2022](/images/2021_fig.JPG)
 ![tejada2021](/images/hot_jupiter.JPG)

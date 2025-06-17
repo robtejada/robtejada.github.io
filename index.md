@@ -1,7 +1,6 @@
 ---
 layout: home      # or default, single, etc.—depends on theme
 title: "Welcome"
-class:  jupiter-bg   # <-- add this line
 ---
 
 <!-- ![HEADSHOT](/images/peyton_picture.jpg)

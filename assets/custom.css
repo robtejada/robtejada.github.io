@@ -8,7 +8,7 @@ body::before {
   content: "";
   position: fixed;
   top: 0; left: 0; right: 0; bottom: 0;
-  background: url('/images/jupiter_2.JPG') no-repeat center center fixed;
+  background: url('/images/jupiter_3.jpg') no-repeat center center fixed;
   background-size: cover;
   opacity: 0.8;       /* ← adjust between 0 (invisible) and 1 (fully opaque) */
   z-index: -1;

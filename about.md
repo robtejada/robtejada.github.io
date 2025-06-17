@@ -2,7 +2,6 @@
 layout: page          # minima’s built-in single-column page layout
 title: Research
 permalink: /about/    # gives you robtejada.github.io/about/
-class:  saturn-bg    # <-- add this line
 ---
 
 ## General Interests  <!-- WHY: committees scan the first 100 words -->

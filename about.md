@@ -13,12 +13,16 @@ I will be on the academic job market in **Fall 2025**.
 
 ## Research Topics
 ### Interior evolution of Uranus and Neptune
-Tejada Arevalo et al. (2025b; arxiv link comming soon) models the evolution of Uranus and Neptune informed by formation models using methane-ammonia-water equation of state mixtures under the influence of convective mixing. Here I found that while Uranus and Neptune could have formed with a similar composition gradient, their initial entropy/thermal profiles determine whether these convectively mix or not. I propose here that the difference between the luminosities of Uranus and Neptune could be due to convective mixing of their interior structures: Uranus can retain its profile gradients, and Neptune could have mixed almost entirely, leading to Neptune's adiabatic cooling. This proposes a simple and unified explanation to the long standing puzzle of why their luminosities are so different despite both planets appearing similar in many other aspects.
+[Tejada Arevalo et al. (2025b)](https://arxiv.org/abs/2506.13857) models the evolution of Uranus and Neptune informed by formation models using methane-ammonia-water equation of state mixtures under the influence of convective mixing. Here I found that while Uranus and Neptune could have formed with a similar composition gradient, their initial entropy/thermal profiles determine whether their envelopes homogonize, and thus whether they release their internal heat.
+
+I propose here that the difference between the luminosities of Uranus and Neptune could be due to convective mixing of their interior structures: Uranus can retain its profile gradients, and Neptune could have mixed almost entirely, leading to Neptune's adiabatic cooling. This proposes a simple and unified explanation to the long standing puzzle of why their luminosities are so different despite both planets appearing similar in many other aspects. In the first plot blow, color lines represent different ages. Neptune (right) undergoes a rapid mixing event between 0.5 and 0.6 Gyr which releases its interior energy. This mixing is observed in the second plot below as a quick but drastic increase in temperature, luminosity, and radius. After Neptune homogenizes, its outer envelope evolves adiabatically, explaining its present luminosity and radius.
 
 <span style="font-size: 0.6em;">
-    Image credit: NASA, ESA, Mark Showalter (SETI Institute), Amy Simon (NASA-GSFC), Michael H. Wong (UC Berkeley), Andrew I. Hsu (UC Berkeley).
+    Photograph image credit: NASA, ESA, Mark Showalter (SETI Institute), Amy Simon (NASA-GSFC), Michael H. Wong (UC Berkeley), Andrew I. Hsu (UC Berkeley).
 </span>
 
+![tejada2025b](/images/2025b_fig.JPG)
+![tejada2025b](/images/2025b_fig2.JPG)
 ![tejada2025b](/images/uranus_neptune.JPG)
 
 ### Interior evolution of Jupiter and Saturn
@@ -35,7 +39,7 @@ Tejada Arevalo et al. (2025b; arxiv link comming soon) models the evolution of U
 [Tejada Arevalo et al. (2022)](https://iopscience.iop.org/article/10.3847/2041-8213/ac70e0) focused on the orbital stability of the gas giants in the compact exoplanet system V1298 Tau. We found that the mass and eccentricity of third planet of the young V1298 Tau multi-planet system (V1298 Tau b) could be too large as indicated by early RV measurements. This was inferred by assessing the long-term stability of the system, finding that a lower mass of V1298 Tau b is likely for the system to survive to its current ~20 Myr age. In the figure below, red configurations are unstable.
 
 <span style="font-size: 0.6em;">
-    Credit for these images go to Gabriel Pérez Díaz, SMM (IAC) and NASA/JPL.
+    Credit for artist's impression goes to Gabriel Pérez Díaz, SMM (IAC) and NASA/JPL.
 </span>
 
 ![tejada2022](/images/2022_fig.JPG)
@@ -53,7 +57,7 @@ Tejada Arevalo et al. (2025b; arxiv link comming soon) models the evolution of U
 ![tejada2021](/images/hot_jupiter.JPG)
 
 ## Selected Publications  <!-- WHY: showcase peer-reviewed output up front -->
-1. **Tejada Arevalo R.**, *Different Inhomogeneous Evolutionary Histories for Uranus and Neptune*, *ApJL* (submitted, 2025).
+1. **Tejada Arevalo R.**, *Different Inhomogeneous Evolutionary Histories for Uranus and Neptune*, (submitted to ApJL, 2025, arXiv:2506.13857).
 2. **Tejada Arevalo R.**, et al., [*Jupiter Evolutionary Models Incorporating Stably Stratified Regions*](https://iopscience.iop.org/article/10.3847/1538-4357/ada030), *ApJ* 979 (2025).
 3. **Tejada Arevalo R.**, et al., [*Equations of State, Thermodynamics, and Miscibility Curves for Jovian Planet and Giant Exoplanet Evolutionary Models*](https://iopscience.iop.org/article/10.3847/1538-4365/ad6cd7), *ApJS* 274 (2024).
 4. Sur, A. et al., (incl. **Tejada Arevalo R.**), [*Simultaneous Evolutionary Fits for Jupiter and Saturn Incorporating Fuzzy Cores*](https://iopscience.iop.org/article/10.3847/2041-8213/adad62), *ApJL* 980 (2024)
@@ -65,7 +69,7 @@ Tejada Arevalo et al. (2025b; arxiv link comming soon) models the evolution of U
 When I started working on gas giant planets, I found it challenging to gather all the relevant equations of state for H-He and other materials, along with miscibility curves.
 These are crucial components of modeling the interiors of Jupiter and Saturn. As a result, I put together a repo that attempts to centralize the most updated EOSes. I provide
 user-friendly Python 3 code along with H-He-Z mixtures. The details are described in [Tejada Arevalo et al. (2024)](https://iopscience.iop.org/article/10.3847/1538-4365/ad6cd7).
-The GitHub repo can be found [here](https://github.com/robtejada/eos/tree/main).
+The GitHub repo can be found [here](https://github.com/robtejada/eos/tree/main). A downloadable version of the EOS repo can be found [here](https://drive.google.com/drive/u/1/folders/1V13BQLZ9_VKWoZQp6T5i7OXp8zreIrt7)
 
 ## Contact  <!-- WHY: make it trivial to reach you -->
 * **Email:** arevalo(AT)princeton.edu

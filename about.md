@@ -59,8 +59,9 @@ I propose here that the difference between the luminosities of Uranus and Neptun
 ## Selected Publications  <!-- WHY: showcase peer-reviewed output up front -->
 1. **Tejada Arevalo R.**, *Different Inhomogeneous Evolutionary Histories for Uranus and Neptune*, (submitted to ApJL, 2025, arXiv:2506.13857).
 2. **Tejada Arevalo R.**, et al., [*Jupiter Evolutionary Models Incorporating Stably Stratified Regions*](https://iopscience.iop.org/article/10.3847/1538-4357/ada030), *ApJ* 979 (2025).
-3. **Tejada Arevalo R.**, et al., [*Equations of State, Thermodynamics, and Miscibility Curves for Jovian Planet and Giant Exoplanet Evolutionary Models*](https://iopscience.iop.org/article/10.3847/1538-4365/ad6cd7), *ApJS* 274 (2024).
-4. Sur, A. et al., (incl. **Tejada Arevalo R.**), [*Simultaneous Evolutionary Fits for Jupiter and Saturn Incorporating Fuzzy Cores*](https://iopscience.iop.org/article/10.3847/2041-8213/adad62), *ApJL* 980 (2024)
+3. Sur, A. et al., (incl. **Tejada Arevalo R.**), [*Simultaneous Evolutionary Fits for Jupiter and Saturn Incorporating Fuzzy Cores*](https://iopscience.iop.org/article/10.3847/2041-8213/adad62), *ApJL* 980 (2025).
+4. Sur, A. et al., (incl. **Tejada Arevalo R.**)., [*Equations of State, Thermodynamics, and Miscibility Curves for Jovian Planet and Giant Exoplanet Evolutionary Models*](https://iopscience.iop.org/article/10.3847/1538-4365/ad6cd7), *ApJS* 274 (2024).
+5. **Tejada Arevalo R.**, et al., [*APPLE: An Evolution Code for Modeling Giant Planets*](https://iopscience.iop.org/article/10.3847/1538-4357/ad57c3), *ApJ* 971 (2024).
 5. **Tejada Arevalo R.**, et al., [*Stability Constrained Characterization of the 23 Myr Old V1298 Tau System: Do Young Planets Form in Mean Motion Resonance Chains?*](https://iopscience.iop.org/article/10.3847/2041-8213/ac70e0), *ApJL* 932 (2022)
 6. **Tejada Arevalo R.**, et al., [*Further Evidence for Tidal Spin-up of Hot Jupiter Host Stars*](https://iopscience.iop.org/article/10.3847/1538-4357/ac1429), *ApJ* 919 (2021)
 

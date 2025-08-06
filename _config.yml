@@ -4,3 +4,8 @@ theme:   minima
 
 author:  ""                      # ← keep this empty
 email:   "arevalo(AT)princeton.edu"
+
+# Added navigation configuration to remove the Research tab
+navigation:
+  - title: "Welcome"
+    url: "/"

@@ -4,7 +4,7 @@ html, body { height: 100%; background: none; }
 /* Apply the site background directly on the body so it reliably shows */
 body {
   /* Darken overlay + image in one layer; easier than ::before stacking */
-  background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('/images/saturn_2.jpg');
+    background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('/images/saturn_2.jpg');
   background-repeat: no-repeat;
   background-position: center center;
   background-attachment: fixed;

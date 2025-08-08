@@ -1,31 +1,14 @@
-/* Remove any direct html/body background you had before */
-html, body {
-  background: none;
-}
+/* Ensure full-height and clear prior backgrounds */
+html, body { height: 100%; background: none; }
 
-/* Put the planet image behind everything at 30% opacity */
-body::before {
-  content: "";
-  position: fixed;
-  top: 0; left: 0; right: 0; bottom: 0;
-  background: url('/images/jupiter.jpg') no-repeat center center fixed;
-  background-size: cover;
-  opacity: 0.5;       /* ← adjust between 0 (invisible) and 1 (fully opaque) */
-  z-index: -1;
-}
-
-/* (Optional) Keep a dark overlay so text pops */
-body::after {
-  content: "";
-  position: fixed;
-  top: 0; left: 0; right: 0; bottom: 0;
-  background: rgba(0,0,0,0.4);
-  pointer-events: none;
-  z-index: -1;
-}
-
-/* Rest of your text-color, nav, heading rules… */
+/* Apply the site background directly on the body so it reliably shows */
 body {
+  /* Darken overlay + image in one layer; easier than ::before stacking */
+  background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('/images/saturn_1.jpg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
   color: rgba(255, 255, 255, 0.9);
 }
 

@@ -43,7 +43,7 @@ I will be on the academic job market in **Fall 2025**.
 
 ## Research Topics
 ### Interior evolution of Uranus and Neptune
-[Tejada Arevalo et al. (2025b)](https://arxiv.org/abs/2506.13857) models the evolution of Uranus and Neptune informed by formation models using methane-ammonia-water equation of state mixtures under the influence of convective mixing. Here I found that while Uranus and Neptune could have formed with a similar composition gradient, their initial entropy/thermal profiles determine whether their envelopes homogonize, and thus whether they release their internal heat.
+[Tejada Arevalo et al. (2025b)](https://iopscience.iop.org/article/10.3847/2041-8213/adf3a5) models the evolution of Uranus and Neptune informed by formation models using methane-ammonia-water equation of state mixtures under the influence of convective mixing. Here I found that while Uranus and Neptune could have formed with a similar composition gradient, their initial entropy/thermal profiles determine whether their envelopes homogonize, and thus whether they release their internal heat.
 
 I propose here that the difference between the luminosities of Uranus and Neptune could be due to convective mixing of their interior structures: Uranus can retain its profile gradients, and Neptune could have mixed almost entirely, leading to Neptune's adiabatic cooling. This proposes a simple and unified explanation to the long standing puzzle of why their luminosities are so different despite both planets appearing similar in many other aspects. In the first plot blow, color lines represent different ages. Neptune (right) undergoes a rapid mixing event between 0.5 and 0.6 Gyr which releases its interior energy.
 
@@ -94,7 +94,7 @@ This mixing is observed in the second plot below as a quick but drastic increase
 ![tejada2021](/images/hot_jupiter.JPG)
 
 ## Selected Publications  <!-- WHY: showcase peer-reviewed output up front -->
-1. **Tejada Arevalo R.**, *Different Inhomogeneous Evolutionary Histories for Uranus and Neptune*, (accepted to ApJL, 2025, [arXiv:2506.13857v3](https://arxiv.org/pdf/2506.13857)).
+1. **Tejada Arevalo R.**, [*Different Inhomogeneous Evolutionary Histories for Uranus and Neptune*](https://iopscience.iop.org/article/10.3847/2041-8213/adf3a5), *ApJL* 989 (2025).
 2. **Tejada Arevalo R.**, et al., [*Jupiter Evolutionary Models Incorporating Stably Stratified Regions*](https://iopscience.iop.org/article/10.3847/1538-4357/ada030), *ApJ* 979 (2025).
 3. Sur, A. et al., (incl. **Tejada Arevalo R.**), [*Simultaneous Evolutionary Fits for Jupiter and Saturn Incorporating Fuzzy Cores*](https://iopscience.iop.org/article/10.3847/2041-8213/adad62), *ApJL* 980 (2025).
 4. **Tejada Arevalo R.**, et al., [*Equations of State, Thermodynamics, and Miscibility Curves for Jovian Planet and Giant Exoplanet Evolutionary Models*](https://iopscience.iop.org/article/10.3847/1538-4365/ad6cd7), *ApJS* 274 (2024).

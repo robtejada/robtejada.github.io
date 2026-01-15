@@ -128,7 +128,4 @@ Beyond my love for nature, I am an enthusiastic amateur weightlifter. I constant
 
 ### Download CV
 
-[PDF (updated {{ "now" | date: "%b %Y" }})](/assets/cv_2025.pdf)
-
-
-
+[PDF (updated {{ "now" | date: "%b %Y" }})](/assets/cv_2026.pdf)

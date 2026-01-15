@@ -37,11 +37,21 @@ I am a planetary modeler broadly interested in planetary evolution, formation, a
 ## General Research Interests  <!-- WHY: committees scan the first 100 words -->
 I’m a **final-year PhD candidate** in astrophysics at Princeton University working with Prof. Adam Burrows.
 A better understanding of the gas giants in our Solar System will grant us a better understanding of the formation and evolution of gas giant exoplanets more broadly.
-As a result, my thesis work thus far has encompassed the evolution of Jupiter, Saturn, (and soon) Uranus and Neptune.
-I plan to extend this work to sub-Neptunes and other gas giant exoplanets in the near future.
-I will be on the academic job market in **Fall 2025**.
+As a result, my thesis work thus far has encompassed the evolution of Jupiter, Saturn, Uranus and Neptune, and recently, the evolution of sub-Neptune exoplanets.
+I will be on the academic job market in **Fall 2026**.
 
 ## Research Topics
+
+### Sub-Neptune evolution
+[Tejada Arevalo et al. (2026; submitted to ApJ)](https://arxiv.org/abs/2601.00059) investigates the evolution of sub-Neptune exoplanets (between 1.5 and 4 Earth radii) subject to a convectively, Ledoux-stable envelope-mantle interface and explores the effects of silicate rain. Internal luminosities (or fluxes) from the mantle to the envelope are only transfered via conduction and radiation, resulting in inefficient cooling of the mantles. This means that sub-Neptune mantles and cores can remain liquid over their lifespan, depending on their mass and envelope size. This means that hot initial conditions can result in overall hotter interiors and inflated sub-Neptune radii over Gyr timescales, as shown in the Figure below. 
+
+![tejada2025b](/images/Fig_10Mearth_entropy_dependence_dark.png)
+
+Our work here showcases the first models to incorporate silicate rain in sub-Neptune envelopes. Silicate rain keeps sub-Neptune radii inflated by approximately 5-7%, depending on stellar irradiation and overall mass. 
+
+![tejada2025b](/images/Fig_3Mearth_misc_1_dark.png)
+![tejada2025b](/images/Fig_3Mearth_misc_2_dark.png)
+
 ### Interior evolution of Uranus and Neptune
 [Tejada Arevalo et al. (2025b)](https://iopscience.iop.org/article/10.3847/2041-8213/adf3a5) models the evolution of Uranus and Neptune informed by formation models using methane-ammonia-water equation of state mixtures under the influence of convective mixing. Here I found that while Uranus and Neptune could have formed with a similar composition gradient, their initial entropy/thermal profiles determine whether their envelopes homogonize, and thus whether they release their internal heat.
 

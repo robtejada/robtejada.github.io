@@ -1,10 +1,10 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
   <defs>
     <clipPath id="ring-back">
-      <rect x="0" y="0" width="64" height="34"/>
+      <rect x="0" y="0" width="64" height="32"/>
     </clipPath>
     <clipPath id="ring-front">
-      <rect x="0" y="34" width="64" height="30"/>
+      <rect x="0" y="32" width="64" height="32"/>
     </clipPath>
     <clipPath id="planet-clip">
       <circle cx="32" cy="32" r="18"/>
@@ -15,7 +15,7 @@
     </radialGradient>
   </defs>
   <!-- Ring behind planet -->
-  <ellipse cx="32" cy="36" rx="30" ry="7" fill="none" stroke="#8fafc8" stroke-width="1.8" opacity="0.55" clip-path="url(#ring-back)"/>
+  <ellipse cx="32" cy="32" rx="30" ry="7" fill="none" stroke="#8fafc8" stroke-width="1.8" opacity="0.55" clip-path="url(#ring-back)"/>
   <!-- Planet body -->
   <circle cx="32" cy="32" r="18" fill="#4a90d9"/>
   <!-- Atmospheric bands and clouds -->
@@ -33,5 +33,5 @@
   <!-- Highlight and shading -->
   <circle cx="32" cy="32" r="18" fill="url(#shading)"/>
   <!-- Ring in front of planet -->
-  <ellipse cx="32" cy="36" rx="30" ry="7" fill="none" stroke="#8fafc8" stroke-width="1.8" opacity="0.55" clip-path="url(#ring-front)"/>
+  <ellipse cx="32" cy="32" rx="30" ry="7" fill="none" stroke="#8fafc8" stroke-width="1.8" opacity="0.55" clip-path="url(#ring-front)"/>
 </svg>

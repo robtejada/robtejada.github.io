@@ -63,7 +63,7 @@ I will be starting my first postdoctoral position as a University of California 
 <img src="/images/2021_fig.JPG" alt="Hot Jupiter host star rotation" loading="lazy" />
 
 ## Publications
-1. **Tejada Arevalo R.** et al., [*Sub-Neptune Memories I: Implications of Inefficient Mantle Cooling and Silicate Rain*](https://arxiv.org/abs/2601.00059), *accepted to ApJ*
+1. **Tejada Arevalo R.** et al., [*Sub-Neptune Memories I: Implications of Inefficient Mantle Cooling and Silicate Rain*](https://arxiv.org/abs/2601.00059), *accepted to ApJ.*
 2. **Tejada Arevalo R.**, [*Different Inhomogeneous Evolutionary Histories for Uranus and Neptune*](https://iopscience.iop.org/article/10.3847/2041-8213/adf3a5), *ApJL* 989 (2025).
 3. **Tejada Arevalo R.**, et al., [*Jupiter Evolutionary Models Incorporating Stably Stratified Regions*](https://iopscience.iop.org/article/10.3847/1538-4357/ada030), *ApJ* 979 (2025).
 4. Sur, A. et al., (incl. **Tejada Arevalo R.**), [*Simultaneous Evolutionary Fits for Jupiter and Saturn Incorporating Fuzzy Cores*](https://iopscience.iop.org/article/10.3847/2041-8213/adad62), *ApJL* 980 (2025).

@@ -1,69 +1,191 @@
-/* Ensure full-height and clear prior backgrounds */
-html, body { height: 100%; background: none; }
+/* ============================================================
+   Two-tone academic site: dark header + white body
+   ============================================================ */
 
-/* Apply the site background directly on the body so it reliably shows */
-body {
-  /* Darken overlay + image in one layer; easier than ::before stacking */
-    background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('/images/saturn_2.jpg');
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-attachment: fixed;
-  background-size: cover;
-  color: rgba(255, 255, 255, 0.9);
+/* --- Reset & base ------------------------------------------ */
+html, body {
+  height: 100%;
+  margin: 0;
+  background: #ffffff;
+  color: #333;
 }
 
-/* Headings fully white for extra contrast */
-h1, h2, h3, h4, h5, h6 {
-  color: #fff;
+/* --- Minima site-header: blend into dark banner ------------- */
+.site-header {
+  background: #1a2332;
+  border-top: none;
+  border-bottom: none;
 }
-
-/* Link styling */
-a, a:visited {
-  color: #aecbfa;               /* light blue, tweak as you like */
+.site-title,
+.site-title:visited {
+  color: #ffffff !important;
 }
-a:hover, a:focus {
-  color: #fff;
-  text-decoration: underline;
+.site-title:hover,
+.site-title:focus {
+  color: #93c5fd !important;
+  text-decoration: none;
 }
-
-/* (Optional) If your content sits on a semi-transparent overlay,
-   you can also give it a darker backdrop for readability: */
-.content, .post-content {
-  background-color: rgba(0, 0, 0, 0.4);
-  padding: 1rem;
-  border-radius: 0.5rem;
-}
-
-/* Lighten nav links */
+.site-nav .page-link,
 .site-nav a,
 .site-nav a:visited {
-  color: #fff;            /* white nav text */
+  color: rgba(255, 255, 255, 0.85);
 }
 .site-nav a:hover,
 .site-nav a:focus {
-  color: #aecbfa;         /* or any accent color you like */
+  color: #ffffff;
 }
 
-/* Lighten the page title (“Welcome”) */
-.page-title,
-.page-heading,
-h1.page-title {
-  color: #fff;            /* white for your main headings */
+/* --- Hide Minima's "Welcome" page heading ------------------ */
+.page-heading {
+  display: none;
 }
 
-/* And if you have sub‐section headings like “About” */
-h2, h3 {
-  color: #fff;            /* adjust to taste */
+/* --- Remove gap between site-header and banner ------------- */
+.page-content {
+  padding-top: 0 !important;
 }
 
-/* --- Site title colour --------------------------------------------- */
-.site-title,
-.site-title:visited {          /* normal & visited states */
-  color: #ffffff !important;   /* white text – change the hex to taste   */
+/* --- Dark header banner ------------------------------------ */
+.header-banner {
+  background: #1a2332;
+  color: #ffffff;
+  padding: 2rem 1rem 2.5rem;
+  text-align: center;
+  /* Break out of Minima's content wrapper to go full-width */
+  width: 100vw;
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+}
+.header-banner img {
+  width: 160px !important;
+  height: 160px !important;
+  border-radius: 50% !important;
+  object-fit: cover;
+  border: 3px solid rgba(255, 255, 255, 0.25);
+  display: block;
+  margin: 0 auto 1rem;
+}
+.header-banner h1 {
+  color: #fff;
+  margin: 0 0 0.25rem;
+  font-size: 1.6rem;
+}
+.header-banner p {
+  color: rgba(255, 255, 255, 0.85);
+  margin: 0.15rem 0;
+  font-size: 0.95rem;
+}
+.header-banner .header-links {
+  margin-top: 0.8rem;
+}
+.header-banner .header-links a {
+  color: #93c5fd;
+  margin: 0 0.5rem;
+  text-decoration: none;
+  font-size: 0.9rem;
+}
+.header-banner .header-links a:hover {
+  color: #ffffff;
+  text-decoration: underline;
 }
 
-.site-title:hover,
-.site-title:focus {            /* on hover / keyboard focus */
-  color: #aecbfa !important;   /* light-blue accent – optional           */
+/* --- White body content ------------------------------------ */
+.page-content,
+.post-content {
+  background: #ffffff;
+  color: #333;
+  padding: 2rem 1rem;
+  border-radius: 0;
+}
+.post-content {
+  max-width: 780px;
+  margin: 0 auto;
 }
 
+/* --- Typography -------------------------------------------- */
+h1, h2, h3, h4, h5, h6 {
+  color: #1a2332;
+}
+h2 {
+  border-bottom: 1px solid #e5e7eb;
+  padding-bottom: 0.35rem;
+  margin-top: 2.2rem;
+}
+h3 {
+  margin-top: 1.6rem;
+  color: #2d3a4a;
+}
+
+/* --- Links ------------------------------------------------- */
+a, a:visited {
+  color: #2563eb;
+}
+a:hover, a:focus {
+  color: #1d4ed8;
+  text-decoration: underline;
+}
+
+/* --- Research figures -------------------------------------- */
+.post-content img,
+.page-content img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 4px;
+  margin: 1rem auto;
+  display: block;
+}
+
+/* Side-by-side figure pair */
+.figure-pair {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin: 1rem 0;
+}
+.figure-pair img {
+  width: 48%;
+  margin: 0;
+}
+
+/* --- Publications list ------------------------------------- */
+.post-content ol {
+  padding-left: 1.5rem;
+}
+.post-content ol li {
+  margin-bottom: 0.5rem;
+  line-height: 1.5;
+}
+
+/* --- Footer ------------------------------------------------ */
+.site-footer {
+  background: #1a2332;
+  color: rgba(255, 255, 255, 0.7);
+  border-top: none;
+}
+.site-footer a {
+  color: #93c5fd;
+}
+
+/* --- Mobile responsive ------------------------------------- */
+@media (max-width: 600px) {
+  .header-banner {
+    padding: 1.5rem 1rem 2rem;
+  }
+  .header-banner img {
+    width: 120px;
+    height: 120px;
+  }
+  .header-banner h1 {
+    font-size: 1.3rem;
+  }
+  .figure-pair {
+    flex-direction: column;
+    align-items: center;
+  }
+  .figure-pair img {
+    width: 100%;
+  }
+}

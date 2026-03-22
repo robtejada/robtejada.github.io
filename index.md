@@ -4,6 +4,9 @@ title: "Welcome"
 ---
 
 <div class="header-banner">
+  <div class="header-jupiter" aria-hidden="true">
+    <img src="/images/jupiter_cutaway_v9.png" alt="" />
+  </div>
   <img src="/images/updated_selfie.JPG" alt="Roberto Tejada Arevalo" />
   <h1>Roberto (Rob) Tejada Arevalo</h1>
   <p>PhD Candidate, Astrophysical Sciences</p>

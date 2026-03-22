@@ -18,11 +18,19 @@ html, body {
 }
 .site-title,
 .site-title:visited {
-  color: #ffffff !important;
+  color: transparent !important;
 }
 .site-title {
-  visibility: hidden;
+  position: relative;
+}
+.site-title::after {
+  content: "Per Aspera Ad Mundos";
+  position: absolute;
+  left: 0;
+  top: 0;
+  color: #ffffff;
   pointer-events: none;
+  white-space: nowrap;
 }
 .site-title:hover,
 .site-title:focus {

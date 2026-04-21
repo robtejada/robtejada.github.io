@@ -30,11 +30,21 @@ A better understanding of the gas giants in our Solar System will grant us a bet
 My thesis work encompasses the evolution of Jupiter, Saturn, Uranus and Neptune, and recently, the evolution of sub-Neptune exoplanets.
 I will be starting my first postdoctoral position as a University of California Presidential Postdoctoral Fellow at UC Santa Cruz, working with Jonathan Fortney.
 
-## Research
+## Publications
+1. **Tejada Arevalo R.** et al., [*Sub-Neptune Memories I: Implications of Inefficient Mantle Cooling and Silicate Rain*](https://iopscience.iop.org/article/10.3847/1538-4357/ae5483), *ApJ* 243 (2026)
+2. **Tejada Arevalo R.**, [*Different Inhomogeneous Evolutionary Histories for Uranus and Neptune*](https://iopscience.iop.org/article/10.3847/2041-8213/adf3a5), *ApJL* 989 (2025).
+3. **Tejada Arevalo R.**, et al., [*Jupiter Evolutionary Models Incorporating Stably Stratified Regions*](https://iopscience.iop.org/article/10.3847/1538-4357/ada030), *ApJ* 979 (2025).
+4. Sur, A. et al., (incl. **Tejada Arevalo R.**), [*Simultaneous Evolutionary Fits for Jupiter and Saturn Incorporating Fuzzy Cores*](https://iopscience.iop.org/article/10.3847/2041-8213/adad62), *ApJL* 980 (2025).
+5. **Tejada Arevalo R.**, et al., [*Equations of State, Thermodynamics, and Miscibility Curves for Jovian Planet and Giant Exoplanet Evolutionary Models*](https://iopscience.iop.org/article/10.3847/1538-4365/ad6cd7), *ApJS* 274 (2024).
+6. Sur, A. et al., (incl. **Tejada Arevalo R.**)., [*APPLE: An Evolution Code for Modeling Giant Planets*](https://iopscience.iop.org/article/10.3847/1538-4357/ad57c3), *ApJ* 971 (2024).
+7. **Tejada Arevalo R.**, et al., [*Stability Constrained Characterization of the 23 Myr Old V1298 Tau System: Do Young Planets Form in Mean Motion Resonance Chains?*](https://iopscience.iop.org/article/10.3847/2041-8213/ac70e0), *ApJL* 932 (2022)
+8. **Tejada Arevalo R.**, et al., [*Further Evidence for Tidal Spin-up of Hot Jupiter Host Stars*](https://iopscience.iop.org/article/10.3847/1538-4357/ac1429), *ApJ* 919 (2021)
+
+## Recent Research Projects
 
 ### Sub-Neptune Evolution
 
-[Tejada Arevalo et al. (2026; accepted to ApJ)](https://arxiv.org/abs/2601.00059) investigates the evolution of sub-Neptune exoplanets (between 1.5 and 4 Earth radii) subject to a convectively, Ledoux-stable envelope-mantle interface and explores the effects of silicate rain. Internal luminosities from the mantle to the envelope are only transferred via conduction and radiation, resulting in inefficient cooling of the mantles. This means that sub-Neptune mantles and cores can remain liquid over their lifespan, and that hot initial conditions can result in inflated sub-Neptune radii over Gyr timescales. Our work showcases the first models to incorporate silicate rain in sub-Neptune envelopes.
+[Tejada Arevalo et al. (2026)](https://iopscience.iop.org/article/10.3847/1538-4357/ae5483) investigates the evolution of sub-Neptune exoplanets (between 1.5 and 4 Earth radii) subject to a convectively, Ledoux-stable envelope-mantle interface and explores the effects of silicate rain. Internal luminosities from the mantle to the envelope are only transferred via conduction and radiation, resulting in inefficient cooling of the mantles. This means that sub-Neptune mantles and cores can remain liquid over their lifespan, and that hot initial conditions can result in inflated sub-Neptune radii over Gyr timescales. Our work showcases the first models to incorporate silicate rain in sub-Neptune envelopes.
 
 <img src="/images/Fig2_10Mearth_entropy_dependence_light.png" alt="Sub-Neptune entropy dependence" loading="lazy" />
 
@@ -64,16 +74,6 @@ I will be starting my first postdoctoral position as a University of California 
 [Tejada Arevalo et al. (2021)](https://iopscience.iop.org/article/10.3847/1538-4357/ac1429) compared the measured rotation periods and velocities of hot Jupiter host stars with those of cold Jupiter and small planet host stars. We found that hot Jupiter host stars spin faster, casting additional nuance into the inferred ages of stars with stellar models.
 
 <img src="/images/2021_fig.JPG" alt="Hot Jupiter host star rotation" loading="lazy" />
-
-## Publications
-1. **Tejada Arevalo R.** et al., [*Sub-Neptune Memories I: Implications of Inefficient Mantle Cooling and Silicate Rain*](https://arxiv.org/abs/2601.00059), *accepted to ApJ.*
-2. **Tejada Arevalo R.**, [*Different Inhomogeneous Evolutionary Histories for Uranus and Neptune*](https://iopscience.iop.org/article/10.3847/2041-8213/adf3a5), *ApJL* 989 (2025).
-3. **Tejada Arevalo R.**, et al., [*Jupiter Evolutionary Models Incorporating Stably Stratified Regions*](https://iopscience.iop.org/article/10.3847/1538-4357/ada030), *ApJ* 979 (2025).
-4. Sur, A. et al., (incl. **Tejada Arevalo R.**), [*Simultaneous Evolutionary Fits for Jupiter and Saturn Incorporating Fuzzy Cores*](https://iopscience.iop.org/article/10.3847/2041-8213/adad62), *ApJL* 980 (2025).
-5. **Tejada Arevalo R.**, et al., [*Equations of State, Thermodynamics, and Miscibility Curves for Jovian Planet and Giant Exoplanet Evolutionary Models*](https://iopscience.iop.org/article/10.3847/1538-4365/ad6cd7), *ApJS* 274 (2024).
-6. Sur, A. et al., (incl. **Tejada Arevalo R.**)., [*APPLE: An Evolution Code for Modeling Giant Planets*](https://iopscience.iop.org/article/10.3847/1538-4357/ad57c3), *ApJ* 971 (2024).
-7. **Tejada Arevalo R.**, et al., [*Stability Constrained Characterization of the 23 Myr Old V1298 Tau System: Do Young Planets Form in Mean Motion Resonance Chains?*](https://iopscience.iop.org/article/10.3847/2041-8213/ac70e0), *ApJL* 932 (2022)
-8. **Tejada Arevalo R.**, et al., [*Further Evidence for Tidal Spin-up of Hot Jupiter Host Stars*](https://iopscience.iop.org/article/10.3847/1538-4357/ac1429), *ApJ* 919 (2021)
 
 ## Software
 

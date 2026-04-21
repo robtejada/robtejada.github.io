@@ -1,0 +1,20 @@
+current directory: /Users/arevalo/robtejada.github.io/vendor/bundle/ruby/3.1.0/gems/eventmachine-1.2.7/ext/fastfilereader
+/opt/homebrew/opt/ruby@3.1/bin/ruby extconf.rb
+creating Makefile
+
+current directory: /Users/arevalo/robtejada.github.io/vendor/bundle/ruby/3.1.0/gems/eventmachine-1.2.7/ext/fastfilereader
+make DESTDIR\= sitearchdir\=./.gem.20260420-36996-5tao2i sitelibdir\=./.gem.20260420-36996-5tao2i clean
+
+current directory: /Users/arevalo/robtejada.github.io/vendor/bundle/ruby/3.1.0/gems/eventmachine-1.2.7/ext/fastfilereader
+make DESTDIR\= sitearchdir\=./.gem.20260420-36996-5tao2i sitelibdir\=./.gem.20260420-36996-5tao2i
+compiling mapper.cpp
+compiling rubymain.cpp
+linking shared-object fastfilereaderext.bundle
+ld: warning: ignoring duplicate libraries: '-lruby.3.1'
+
+current directory: /Users/arevalo/robtejada.github.io/vendor/bundle/ruby/3.1.0/gems/eventmachine-1.2.7/ext/fastfilereader
+make DESTDIR\= sitearchdir\=./.gem.20260420-36996-5tao2i sitelibdir\=./.gem.20260420-36996-5tao2i install
+/usr/bin/install -c -m 0755 fastfilereaderext.bundle ./.gem.20260420-36996-5tao2i
+
+current directory: /Users/arevalo/robtejada.github.io/vendor/bundle/ruby/3.1.0/gems/eventmachine-1.2.7/ext/fastfilereader
+make DESTDIR\= sitearchdir\=./.gem.20260420-36996-5tao2i sitelibdir\=./.gem.20260420-36996-5tao2i clean

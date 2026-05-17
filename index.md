@@ -320,6 +320,7 @@ I will be starting my first postdoctoral position as a University of California 
 </div>
 
 ## Publications
+1. **Tejada Arevalo R.** et al., [*ORCHARD: A General Planetary Evolution Code*](https://arxiv.org/abs/2604.24845), *arXiv:2604.24845* (2026)
 1. **Tejada Arevalo R.** et al., [*Sub-Neptune Memories I: Implications of Inefficient Mantle Cooling and Silicate Rain*](https://iopscience.iop.org/article/10.3847/1538-4357/ae5483), *ApJ* 1001 (2026)
 2. **Tejada Arevalo R.**, [*Different Inhomogeneous Evolutionary Histories for Uranus and Neptune*](https://iopscience.iop.org/article/10.3847/2041-8213/adf3a5), *ApJL* 989 (2025).
 3. **Tejada Arevalo R.**, et al., [*Jupiter Evolutionary Models Incorporating Stably Stratified Regions*](https://iopscience.iop.org/article/10.3847/1538-4357/ada030), *ApJ* 979 (2025).

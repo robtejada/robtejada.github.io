@@ -24,10 +24,10 @@ I am a planetary modeler broadly interested in planetary evolution, formation, a
 
 ## Research Interests
 
-I'm a **final-year PhD candidate** in astrophysics at Princeton University working with Adam Burrows.
-A better understanding of the gas giants in our Solar System will grant us a better understanding of the formation and evolution of gas giant exoplanets more broadly.
+I'm a **recent PhD ** in astrophysics at Princeton University, working with Adam Burrows. I will be starting my first postdoctoral position as a University of California Presidential Postdoctoral Fellow at UC Santa Cruz, working with Jonathan Fortney.
+I am broadly interested in the interior evolution of the Solar System gas giant planets. A better understanding of the gas giants in our Solar System will grant us a better understanding of the formation and evolution of gas giant exoplanets more broadly.
 My thesis work encompasses the evolution of Jupiter, Saturn, Uranus and Neptune, and recently, the evolution of sub-Neptune exoplanets.
-I will be starting my first postdoctoral position as a University of California Presidential Postdoctoral Fellow at UC Santa Cruz, working with Jonathan Fortney. The illustrations below show interior region sketches of Jupiter and Saturn that we've published in [Tejada Arevalo et al. (2025a)](https://iopscience.iop.org/article/10.3847/1538-4357/ada030) and [Sur et al. (2025)](https://iopscience.iop.org/article/10.3847/2041-8213/adad62), and Uranus and Neptune in [Tejada Arevalo et al. (2025b)](https://iopscience.iop.org/article/10.3847/2041-8213/adf3a5). The downward arrows in the Jupiter and Saturn models indicate helium rain, and the red regions indicate regions stable to convection. 
+The illustrations below show interior region sketches of Jupiter and Saturn that we've published in [Tejada Arevalo et al. (2025a)](https://iopscience.iop.org/article/10.3847/1538-4357/ada030) and [Sur et al. (2025)](https://iopscience.iop.org/article/10.3847/2041-8213/adad62), and Uranus and Neptune in [Tejada Arevalo et al. (2025b)](https://iopscience.iop.org/article/10.3847/2041-8213/adf3a5). The downward arrows in the Jupiter and Saturn models indicate helium rain, and the red regions indicate regions stable to convection. 
 
 <div class="slice-pair">
 <figure class="slice-fig">

@@ -20,7 +20,7 @@ title: "Welcome"
 
 ## About
 
-I am a planetary modeler broadly interested in planetary evolution, formation, and internal dynamics. My academic journey has been non-traditional: I began my higher education at a community college three years after graduating from high school. As a PhD candidate, I am committed not only to advancing my research but also to mentoring and supporting others from disadvantaged backgrounds on their academic journeys.
+I am a planetary modeler broadly interested in planetary evolution, formation, and internal dynamics. My academic journey has been non-traditional: I began my higher education at a community college three years after graduating from high school. I am committed not only to advancing my research but also to mentoring and supporting others from disadvantaged backgrounds on their academic journeys.
 
 ## Research Interests
 

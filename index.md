@@ -29,8 +29,6 @@ I am broadly interested in the interior evolution of the Solar System gas giant 
 My thesis work encompasses the evolution of Jupiter, Saturn, Uranus and Neptune, and recently, the evolution of sub-Neptune exoplanets.
 The illustrations below show interior region sketches of Jupiter and Saturn that we've published in [Tejada Arevalo et al. (2025a)](https://iopscience.iop.org/article/10.3847/1538-4357/ada030) and [Sur et al. (2025)](https://iopscience.iop.org/article/10.3847/2041-8213/adad62), and Uranus and Neptune in [Tejada Arevalo et al. (2025b)](https://iopscience.iop.org/article/10.3847/2041-8213/adf3a5). The downward arrows in the Jupiter and Saturn models indicate helium rain, and the red regions indicate regions stable to convection. 
 
-Our planetary evolution code, ORCHARD, a public version of APPLE ([Sur et al. 2024](https://iopscience.iop.org/article/10.3847/1538-4357/ad57c3)), will be available [here](https://github.com/robtejada/orchard) upon the acceptance of [Tejada Arevalo et al (2026b)](https://arxiv.org/abs/2604.24845).
-
 <div class="slice-pair">
 <figure class="slice-fig">
 <figcaption>Jupiter</figcaption>
@@ -334,6 +332,12 @@ Our planetary evolution code, ORCHARD, a public version of APPLE ([Sur et al. 20
 
 ## Recent Research Projects
 
+### ORCAHRD: A General Planetary Evolution Code
+
+ORCHARD is a public version of our gas giant evolution code, APPLE ([Sur et al. 2024](https://iopscience.iop.org/article/10.3847/1538-4357/ad57c3)). Besides the gas giant evolution modeling capabilities, ORCHARD is capable of modeling Neptunian, sub-Neptunian, super-Earth, and Terrestrial planetary interior evolution with updated equations of state and atmospheric boundary conditions. The code is described in [Tejada Arevalo et al (2026b)](https://arxiv.org/abs/2604.24845), and will be public upon acceptance of that manuscript. The figure below shows the luminosity evolution of the entire planetary mass range of astrophysical interest.
+
+<img src="/images/fig_luminosity_demo_all_masses_inline.png" alt="Sub-Neptune entropy dependence" loading="lazy" />
+
 ### Sub-Neptune Evolution
 
 [Tejada Arevalo et al. (2026)](https://iopscience.iop.org/article/10.3847/1538-4357/ae5483) investigates the evolution of sub-Neptune exoplanets (between 1.5 and 4 Earth radii) subject to a convectively, Ledoux-stable envelope-mantle interface and explores the effects of silicate rain. Internal luminosities from the mantle to the envelope are only transferred via conduction and radiation, resulting in inefficient cooling of the mantles. This means that sub-Neptune mantles and cores can remain liquid over their lifespan, and that hot initial conditions can result in inflated sub-Neptune radii over Gyr timescales. Our work showcases the first models to incorporate silicate rain in sub-Neptune envelopes. The diagram below shows the basic setup of the sub-Neptune structure in [Tejada Arevalo et al. (2026)](https://iopscience.iop.org/article/10.3847/1538-4357/ae5483).
@@ -371,6 +375,8 @@ The following plot shows that hot liquid mantles maintain larger radii by approx
 <img src="/images/2021_fig.JPG" alt="Hot Jupiter host star rotation" loading="lazy" />
 
 ## Software
+
+Our planetary evolution code, ORCHARD, a public version of APPLE ([Sur et al. 2024](https://iopscience.iop.org/article/10.3847/1538-4357/ad57c3)), will be available [here](https://github.com/robtejada/orchard) upon the acceptance of [Tejada Arevalo et al (2026b)](https://arxiv.org/abs/2604.24845).
 
 I put together a repo that centralizes the most updated equations of state for H-He and other materials, along with miscibility curves, for modeling gas giant interiors. I provide user-friendly Python 3 code along with H-He-Z mixtures. The details are described in [Tejada Arevalo et al. (2024)](https://iopscience.iop.org/article/10.3847/1538-4365/ad6cd7).
 The GitHub repo can be found [here](https://github.com/robtejada/eos/tree/main). A downloadable version can be found [here](https://drive.google.com/drive/u/1/folders/1V13BQLZ9_VKWoZQp6T5i7OXp8zreIrt7).

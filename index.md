@@ -7,10 +7,10 @@ title: "Welcome"
 <aside class="side-profile" markdown="0">
   <img src="/images/updated_selfie.JPG" alt="Roberto Tejada Arevalo" />
   <h1>Roberto (Rob) Tejada Arevalo</h1>
-  <p>PhD Candidate, Astrophysical Sciences</p>
-  <p><a href="https://web.astro.princeton.edu/" target="_blank" rel="noopener">Princeton University</a></p>
+  <p>UC Presidential Postdoctoral Fellow, Astronomy &amp; Astrophysics</p>
+  <p><a href="https://www.astro.ucsc.edu/" target="_blank" rel="noopener">University of California, Santa Cruz</a></p>
   <p class="side-links">
-    <a href="mailto:arevalo@princeton.edu">Email</a> |
+    <a href="mailto:roaareva@ucsc.edu">Email</a> |
     <a href="https://github.com/robtejada" target="_blank" rel="noopener">GitHub</a> |
     <a href="https://orcid.org/0000-0001-6708-3427" target="_blank" rel="noopener">ORCID</a> |
     <a href="/assets/cv_2026.pdf">CV (PDF)</a>
@@ -24,7 +24,7 @@ I am a planetary modeler broadly interested in planetary evolution, formation, a
 
 ## Research Interests
 
-I'm a recent PhD in astrophysics at Princeton University, working with Adam Burrows. I will be starting my first postdoctoral position as a University of California Presidential Postdoctoral Fellow at UC Santa Cruz, working with Jonathan Fortney.
+I am a University of California Presidential Postdoctoral Fellow at UC Santa Cruz, working with Jonathan Fortney. I received my PhD in astrophysics from Princeton University in 2026, where I worked with Adam Burrows.
 I am broadly interested in the interior evolution of the Solar System gas giant planets. A better understanding of the gas giants in our Solar System will grant us a better understanding of the formation and evolution of gas giant exoplanets more broadly.
 My thesis work encompasses the evolution of Jupiter, Saturn, Uranus and Neptune, and recently, the evolution of sub-Neptune exoplanets.
 The illustrations below show interior region sketches of Jupiter and Saturn that we've published in [Tejada Arevalo et al. (2025a)](https://iopscience.iop.org/article/10.3847/1538-4357/ada030) and [Sur et al. (2025)](https://iopscience.iop.org/article/10.3847/2041-8213/adad62), and Uranus and Neptune in [Tejada Arevalo et al. (2025b)](https://iopscience.iop.org/article/10.3847/2041-8213/adf3a5). The downward arrows in the Jupiter and Saturn models indicate helium rain, and the red regions indicate regions stable to convection. 
@@ -320,21 +320,23 @@ The illustrations below show interior region sketches of Jupiter and Saturn that
 </div>
 
 ## Publications
-1. **Tejada Arevalo R.** et al., [*ORCHARD: A General Planetary Evolution Code*](https://arxiv.org/abs/2604.24845), *arXiv:2604.24845* (2026)
-1. **Tejada Arevalo R.** et al., [*Sub-Neptune Memories I: Implications of Inefficient Mantle Cooling and Silicate Rain*](https://iopscience.iop.org/article/10.3847/1538-4357/ae5483), *ApJ* 1001 (2026)
+1. **Tejada Arevalo R.** et al., [*ORCHARD: A General Planetary Evolution Code*](https://arxiv.org/abs/2604.24845), *ApJ* 1010 (2026).
+1. **Tejada Arevalo R.** et al., [*Sub-Neptune Memories I: Implications of Inefficient Mantle Cooling and Silicate Rain*](https://iopscience.iop.org/article/10.3847/1538-4357/ae5483), *ApJ* 1001 (2026).
 2. **Tejada Arevalo R.**, [*Different Inhomogeneous Evolutionary Histories for Uranus and Neptune*](https://iopscience.iop.org/article/10.3847/2041-8213/adf3a5), *ApJL* 989 (2025).
 3. **Tejada Arevalo R.**, et al., [*Jupiter Evolutionary Models Incorporating Stably Stratified Regions*](https://iopscience.iop.org/article/10.3847/1538-4357/ada030), *ApJ* 979 (2025).
 4. Sur, A. et al., (incl. **Tejada Arevalo R.**), [*Simultaneous Evolutionary Fits for Jupiter and Saturn Incorporating Fuzzy Cores*](https://iopscience.iop.org/article/10.3847/2041-8213/adad62), *ApJL* 980 (2025).
 5. **Tejada Arevalo R.**, et al., [*Equations of State, Thermodynamics, and Miscibility Curves for Jovian Planet and Giant Exoplanet Evolutionary Models*](https://iopscience.iop.org/article/10.3847/1538-4365/ad6cd7), *ApJS* 274 (2024).
-6. Sur, A. et al., (incl. **Tejada Arevalo R.**)., [*APPLE: An Evolution Code for Modeling Giant Planets*](https://iopscience.iop.org/article/10.3847/1538-4357/ad57c3), *ApJ* 971 (2024).
-7. **Tejada Arevalo R.**, et al., [*Stability Constrained Characterization of the 23 Myr Old V1298 Tau System: Do Young Planets Form in Mean Motion Resonance Chains?*](https://iopscience.iop.org/article/10.3847/2041-8213/ac70e0), *ApJL* 932 (2022)
-8. **Tejada Arevalo R.**, et al., [*Further Evidence for Tidal Spin-up of Hot Jupiter Host Stars*](https://iopscience.iop.org/article/10.3847/1538-4357/ac1429), *ApJ* 919 (2021)
+6. Su, Y. et al., (incl. **Tejada Arevalo R.**), [*Saturn's Evolutionary History and Seismology: Survival of Deep Stably Stratified Regions in Evolutionary Models of Saturn Consistent with Ring Seismology*](https://arxiv.org/abs/2602.02647), submitted to *ApJ*, *arXiv:2602.02647* (2026).
+6. Sur, A. et al., (incl. **Tejada Arevalo R.**), [*APPLE: An Evolution Code for Modeling Giant Planets*](https://iopscience.iop.org/article/10.3847/1538-4357/ad57c3), *ApJ* 971 (2024).
+7. Chen, Y. et al., (incl. **Tejada Arevalo R.**), [*Jupiter Atmospheric Models and Outer Boundary Conditions for Giant Planet Evolutionary Calculations*](https://iopscience.iop.org/article/10.3847/1538-4357/acf456), *ApJ* 957 (2023).
+7. **Tejada Arevalo R.**, et al., [*Stability Constrained Characterization of the 23 Myr Old V1298 Tau System: Do Young Planets Form in Mean Motion Resonance Chains?*](https://iopscience.iop.org/article/10.3847/2041-8213/ac70e0), *ApJL* 932 (2022).
+8. **Tejada Arevalo R.**, et al., [*Further Evidence for Tidal Spin-up of Hot Jupiter Host Stars*](https://iopscience.iop.org/article/10.3847/1538-4357/ac1429), *ApJ* 919 (2021).
 
 ## Recent Research Projects
 
-### ORCAHRD: A General Planetary Evolution Code
+### ORCHARD: A General Planetary Evolution Code
 
-ORCHARD is a public version of our gas giant evolution code, APPLE ([Sur et al. 2024](https://iopscience.iop.org/article/10.3847/1538-4357/ad57c3)). Besides the gas giant evolution modeling capabilities, ORCHARD is capable of modeling Neptunian, sub-Neptunian, super-Earth, and Terrestrial planetary interior evolution with updated equations of state and atmospheric boundary conditions. The code is described in [Tejada Arevalo et al (2026b)](https://arxiv.org/abs/2604.24845), and will be public upon acceptance of that manuscript. The figure below shows the luminosity evolution of the entire planetary mass range of astrophysical interest.
+ORCHARD is a public version of our gas giant evolution code, APPLE ([Sur et al. 2024](https://iopscience.iop.org/article/10.3847/1538-4357/ad57c3)). Besides the gas giant evolution modeling capabilities, ORCHARD is capable of modeling Neptunian, sub-Neptunian, super-Earth, and Terrestrial planetary interior evolution with updated equations of state and atmospheric boundary conditions. The code is described in [Tejada Arevalo et al. (2026b)](https://arxiv.org/abs/2604.24845). The figure below shows the luminosity evolution of the entire planetary mass range of astrophysical interest.
 
 <img src="/images/fig_luminosity_demo_all_masses_inline.png" alt="Sub-Neptune entropy dependence" loading="lazy" />
 
@@ -376,7 +378,7 @@ The following plot shows that hot liquid mantles maintain larger radii by approx
 
 ## Software
 
-Our planetary evolution code, ORCHARD, a public version of APPLE ([Sur et al. 2024](https://iopscience.iop.org/article/10.3847/1538-4357/ad57c3)), will be available [here](https://github.com/robtejada/orchard) upon the acceptance of [Tejada Arevalo et al (2026b)](https://arxiv.org/abs/2604.24845).
+Our planetary evolution code, ORCHARD, a public version of APPLE ([Sur et al. 2024](https://iopscience.iop.org/article/10.3847/1538-4357/ad57c3)), is described in [Tejada Arevalo et al. (2026b)](https://arxiv.org/abs/2604.24845) and available [here](https://github.com/robtejada/orchard-public).
 
 I put together a repo that centralizes the most updated equations of state for H-He and other materials, along with miscibility curves, for modeling gas giant interiors. I provide user-friendly Python 3 code along with H-He-Z mixtures. The details are described in [Tejada Arevalo et al. (2024)](https://iopscience.iop.org/article/10.3847/1538-4365/ad6cd7).
 The GitHub repo can be found [here](https://github.com/robtejada/eos/tree/main). A downloadable version can be found [here](https://drive.google.com/drive/u/1/folders/1V13BQLZ9_VKWoZQp6T5i7OXp8zreIrt7).

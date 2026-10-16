@@ -57,6 +57,143 @@ html, body {
   padding-top: 0 !important;
 }
 
+/* --- Dark welcome banner (carousel) ------------------------ */
+body {
+  overflow-x: clip;
+}
+.hero {
+  position: relative;
+  width: 100vw;
+  margin: 0 calc(50% - 50vw) 2rem;
+  height: min(56.25vw, 78vh);
+  min-height: 260px;
+  background: #000;
+  overflow: hidden;
+}
+.hero-track {
+  position: relative;
+  height: 100%;
+}
+/* Curtain: slides are stacked; .is-current is shown, .is-top slides over it. */
+.hero-slide {
+  position: absolute;
+  inset: 0;
+  margin: 0;
+  background: #000;
+  visibility: hidden;
+}
+.hero-slide.is-current {
+  visibility: visible;
+  z-index: 1;
+}
+.hero-slide.is-top {
+  visibility: visible;
+  z-index: 2;
+  box-shadow: 1.5rem 0 3rem rgba(0, 0, 0, 0.9);
+  transition: transform 1.3s cubic-bezier(0.65, 0, 0.35, 1);
+}
+.hero-slide.is-off {
+  transform: translateX(-100%);
+}
+.page-content .hero-slide img {
+  width: 100%;
+  height: 100%;
+  max-width: none;
+  margin: 0;
+  border-radius: 0;
+  object-fit: contain;
+}
+.page-content .hero-slide figcaption a {
+  color: rgba(255, 255, 255, 0.85);
+  text-decoration: underline;
+  text-underline-offset: 0.15em;
+}
+.hero-slide figcaption {
+  position: absolute;
+  left: 1.25rem;
+  bottom: 0.9rem;
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 0.8rem;
+  letter-spacing: 0.02em;
+}
+.hero-welcome {
+  position: absolute;
+  left: 6%;
+  top: 50%;
+  transform: translateY(-50%);
+  max-width: 28rem;
+  color: #fff;
+  text-shadow: 0 2px 18px rgba(0, 0, 0, 0.85);
+}
+.hero-welcome p {
+  margin: 0;
+}
+.hero-kicker {
+  font-size: 0.85rem;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+  color: #93c5fd;
+}
+.hero-title {
+  font-size: clamp(1.6rem, 3.6vw, 3rem);
+  font-weight: 600;
+  line-height: 1.15;
+  margin: 0.4rem 0 !important;
+}
+.hero-sub {
+  font-size: clamp(0.95rem, 1.4vw, 1.2rem);
+  color: rgba(255, 255, 255, 0.85);
+}
+.hero-arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 2.75rem;
+  height: 2.75rem;
+  border: none;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.12);
+  color: #fff;
+  font-size: 2rem;
+  line-height: 1;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+.hero-arrow:hover,
+.hero-arrow:focus-visible {
+  background: rgba(255, 255, 255, 0.3);
+}
+.hero-prev { left: 1rem; }
+.hero-next { right: 1rem; }
+.hero-dots {
+  position: absolute;
+  left: 50%;
+  bottom: 1rem;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 0.6rem;
+}
+.hero-dots button {
+  width: 0.65rem;
+  height: 0.65rem;
+  padding: 0;
+  border: 1px solid rgba(255, 255, 255, 0.7);
+  border-radius: 50%;
+  background: transparent;
+  cursor: pointer;
+}
+.hero-dots button[aria-selected="true"] {
+  background: #fff;
+}
+@media (prefers-reduced-motion: reduce) {
+  .hero-slide.is-top { transition: none; }
+}
+@media (max-width: 600px) {
+  .hero-welcome { left: 1.25rem; right: 1.25rem; }
+  .hero-sub, .hero-slide figcaption { display: none; }
+  .hero-arrow { display: none; }
+}
+
 /* --- Sidebar + main two-column layout ---------------------- */
 .layout {
   display: grid;
@@ -110,35 +247,6 @@ html, body {
 }
 .side-profile .side-links a {
   margin: 0 0.3rem;
-}
-
-/* Research-section illustrations (Jupiter + Saturn interior slices) */
-.slice-pair {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 1.5rem;
-  align-items: flex-end;
-  justify-content: center;
-  margin: 1rem 0 1.5rem;
-}
-.slice-fig {
-  margin: 0;
-  flex: 1 1 320px;
-  min-width: 280px;
-  display: flex;
-  flex-direction: column-reverse;
-  align-items: center;
-}
-.slice-fig figcaption {
-  margin-top: 0.5rem;
-  font-weight: 600;
-  color: #1a2332;
-  font-size: 1rem;
-}
-.jupiter-slice {
-  display: block;
-  width: 100%;
-  height: auto;
 }
 
 /* --- White body content ------------------------------------ */

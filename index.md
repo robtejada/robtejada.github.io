@@ -3,6 +3,72 @@ layout: home
 title: "Welcome"
 ---
 
+<section class="hero" id="banner" tabindex="0" aria-roledescription="carousel" aria-label="Planetary interiors, from Jupiter to super-Earths" markdown="0">
+  <div class="hero-track">
+    <figure class="hero-slide is-current" aria-label="1 of 13">
+      <img src="/images/banner/juno_jupiter.jpg" alt="Jupiter's southern hemisphere imaged by NASA's Juno spacecraft" />
+      <div class="hero-welcome">
+        <p class="hero-kicker">Welcome</p>
+        <p class="hero-title">Planetary interiors &amp; evolution</p>
+        <p class="hero-sub">What lies beneath the clouds of the giant planets?</p>
+      </div>
+      <figcaption>Jupiter seen by <em>Juno</em> &middot; NASA/JPL-Caltech/SwRI/MSSS</figcaption>
+    </figure>
+    <figure class="hero-slide" aria-label="2 of 13">
+      <img src="/images/banner/jupiter_cutaway_D.jpg" alt="Cutaway of Jupiter's interior: compact core, fuzzy core, metallic-hydrogen convection, helium rain, and molecular-hydrogen convection" />
+      <figcaption>Inside Jupiter</figcaption>
+    </figure>
+    <figure class="hero-slide" aria-label="3 of 13">
+      <img src="/images/banner/saturn_north_plain.jpg" alt="Saturn and its rings seen from above the north pole by NASA's Cassini spacecraft" />
+      <figcaption>Saturn seen by <em>Cassini</em> &middot; NASA/JPL-Caltech/Space Science Institute</figcaption>
+    </figure>
+    <figure class="hero-slide" aria-label="4 of 13">
+      <img src="/images/banner/saturn_cutaway_D_north.jpg" alt="Cutaway of Saturn seen from above the north pole: compact core, fuzzy core, metallic-hydrogen convection, a thick helium-rain layer, and molecular-hydrogen convection" />
+      <figcaption>Inside Saturn</figcaption>
+    </figure>
+    <figure class="hero-slide" aria-label="5 of 13">
+      <img src="/images/banner/uranus_plain.jpg" alt="Uranus and its rings seen pole-on, from NASA's Voyager 2 spacecraft" />
+      <figcaption>Uranus seen by <em>Voyager 2</em> &middot; NASA/JPL-Caltech</figcaption>
+    </figure>
+    <figure class="hero-slide" aria-label="6 of 13">
+      <img src="/images/banner/uranus_cutaway_D.jpg" alt="Cutaway of Uranus's interior: a rock and iron compact core, convecting ices with about 35 percent rock, a stable composition gradient that traps heat, and a convecting hydrogen-helium envelope" />
+      <figcaption>Inside Uranus</figcaption>
+    </figure>
+    <figure class="hero-slide" aria-label="7 of 13">
+      <img src="/images/banner/neptune_plain.jpg" alt="Neptune and its Great Dark Spot, from NASA's Voyager 2 spacecraft" />
+      <figcaption>Neptune seen by <em>Voyager 2</em> &middot; NASA/JPL-Caltech</figcaption>
+    </figure>
+    <figure class="hero-slide" aria-label="8 of 13">
+      <img src="/images/banner/neptune_cutaway_D.jpg" alt="Cutaway of Neptune's interior: a large rock and iron compact core, deep ices, a thin stable layer, mixed convecting ices with only about 4 percent rock, and a convecting hydrogen-helium envelope" />
+      <figcaption>Inside Neptune</figcaption>
+    </figure>
+    <figure class="hero-slide" aria-label="9 of 13">
+      <img src="/images/banner/subneptune_plain.jpg" alt="Artist's concept of the hazy sub-Neptune GJ 1214 b" />
+      <figcaption>Sub-Neptune GJ 1214 b, artist's concept &middot; NASA/JPL-Caltech/R. Hurt (IPAC)</figcaption>
+    </figure>
+    <figure class="hero-slide" aria-label="10 of 13">
+      <img src="/images/banner/subneptune_cutaway_D.jpg" alt="Cutaway of a sub-Neptune: a liquid iron-silicon core, a hot convecting molten silicate mantle under a conductive boundary layer that slows its cooling, and an envelope split by silicate rain into a silicate-rich lower layer and a hydrogen-helium upper layer" />
+      <figcaption>Inside a sub-Neptune</figcaption>
+    </figure>
+    <figure class="hero-slide" aria-label="11 of 13">
+      <img src="/images/banner/superearth_plain.jpg" alt="Artist's concept of a hot super-Earth covered in lava" />
+      <figcaption>Super-Earth, artist's concept &middot; NASA/JPL-Caltech</figcaption>
+    </figure>
+    <figure class="hero-slide" aria-label="12 of 13">
+      <img src="/images/banner/superearth_cutaway_D.jpg" alt="Cutaway of a super-Earth: a solid basalt crust with glowing lava seams, a convecting magma ocean, and a liquid iron core" />
+      <figcaption>Inside a super-Earth</figcaption>
+    </figure>
+    <figure class="hero-slide" aria-label="13 of 13">
+      <img src="/images/banner/orchard_logo_slide.jpg" alt="ORCHARD logo: a general planetary evolution code derived from APPLE, with planet interiors from 1 Earth mass to 10 Jupiter masses" />
+      <figcaption><a href="https://arxiv.org/abs/2604.24845">ORCHARD: a general planetary evolution code</a></figcaption>
+    </figure>
+  </div>
+  <button class="hero-arrow hero-prev" type="button" aria-label="Previous slide">&#8249;</button>
+  <button class="hero-arrow hero-next" type="button" aria-label="Next slide">&#8250;</button>
+  <div class="hero-dots" role="tablist" aria-label="Choose slide"></div>
+</section>
+<script src="/assets/hero.js" defer></script>
+
 <div class="layout">
 <aside class="side-profile" markdown="0">
   <img src="/images/updated_selfie.JPG" alt="Roberto Tejada Arevalo" />
@@ -27,297 +93,7 @@ I am a planetary modeler broadly interested in planetary evolution, formation, a
 I am a University of California Presidential Postdoctoral Fellow at UC Santa Cruz, working with Jonathan Fortney. I received my PhD in astrophysics from Princeton University in 2026, where I worked with Adam Burrows.
 I am broadly interested in the interior evolution of the Solar System gas giant planets. A better understanding of the gas giants in our Solar System will grant us a better understanding of the formation and evolution of gas giant exoplanets more broadly.
 My thesis work encompasses the evolution of Jupiter, Saturn, Uranus and Neptune, and recently, the evolution of sub-Neptune exoplanets.
-The illustrations below show interior region sketches of Jupiter and Saturn that we've published in [Tejada Arevalo et al. (2025a)](https://iopscience.iop.org/article/10.3847/1538-4357/ada030) and [Sur et al. (2025)](https://iopscience.iop.org/article/10.3847/2041-8213/adad62), and Uranus and Neptune in [Tejada Arevalo et al. (2025b)](https://iopscience.iop.org/article/10.3847/2041-8213/adf3a5). The downward arrows in the Jupiter and Saturn models indicate helium rain, and the red regions indicate regions stable to convection. 
-
-<div class="slice-pair">
-<figure class="slice-fig">
-<figcaption>Jupiter</figcaption>
-<svg class="jupiter-slice" viewBox="0 0 420 460" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Cross-section of Jupiter's interior showing central core, convective region, and helium rain layer">
-  <defs>
-    <radialGradient id="j-interior" cx="40" cy="400" r="340" gradientUnits="userSpaceOnUse">
-      <stop offset="0%"  stop-color="#8a1d0c" />
-      <stop offset="14%" stop-color="#c8431f" />
-      <stop offset="30%" stop-color="#a55433" />
-      <stop offset="48%" stop-color="#4e5a7c" />
-      <stop offset="66%" stop-color="#5c7aa8" />
-      <stop offset="82%" stop-color="#7c94be" />
-      <stop offset="88%" stop-color="#d4a04a" />
-      <stop offset="90%" stop-color="#eac881" />
-      <stop offset="91.5%" stop-color="#e8d7a6" />
-      <stop offset="100%" stop-color="#c2d2e3" />
-    </radialGradient>
-    <marker id="carrow-j" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto">
-      <path d="M 0 0 L 10 5 L 0 10 z" fill="#ffffff" />
-    </marker>
-    <marker id="rarrow-j" viewBox="0 0 8 8" refX="6" refY="4" markerWidth="5" markerHeight="5" orient="auto">
-      <path d="M 0 0 L 8 4 L 0 8 z" fill="#1a2332" />
-    </marker>
-  </defs>
-
-  <!-- Pizza-slice wedge: apex at (40,400), opens to right-up, 90 deg, radius 340 -->
-  <path d="M 40 400 L 380 400 A 340 340 0 0 0 40 60 Z"
-        fill="url(#j-interior)" stroke="#1a2332" stroke-width="1.5" stroke-linejoin="round" />
-
-  <!-- Convection cells (CCW loops) -->
-  <g stroke="#ffffff" stroke-width="1.2" fill="none" opacity="0.8">
-    <!-- Cell 1: (247,325) r=10 -->
-    <path d="M 247 335 A 10 10 0 0 1 247 315" marker-end="url(#carrow-j)" />
-    <path d="M 247 315 A 10 10 0 0 1 247 335" marker-end="url(#carrow-j)" />
-    <!-- Cell 2: (196,244) r=10 -->
-    <path d="M 196 254 A 10 10 0 0 1 196 234" marker-end="url(#carrow-j)" />
-    <path d="M 196 234 A 10 10 0 0 1 196 254" marker-end="url(#carrow-j)" />
-    <!-- Cell 3: (115,193) r=10 -->
-    <path d="M 115 203 A 10 10 0 0 1 115 183" marker-end="url(#carrow-j)" />
-    <path d="M 115 183 A 10 10 0 0 1 115 203" marker-end="url(#carrow-j)" />
-  </g>
-
-  <!-- Helium rain: inward-pointing arrows -->
-  <g stroke="#1a2332" stroke-width="1" fill="none">
-    <line x1="345" y1="318" x2="324" y2="324" marker-end="url(#rarrow-j)" />
-    <line x1="299" y1="219" x2="281" y2="231" marker-end="url(#rarrow-j)" />
-    <line x1="221" y1="141" x2="209" y2="159" marker-end="url(#rarrow-j)" />
-  </g>
-
-  <!-- Faint helium-rain inner boundary hint -->
-  <g fill="none" stroke="#1a2332" stroke-opacity="0.25" stroke-width="0.8" stroke-dasharray="3 4">
-    <path d="M 339 400 A 299 299 0 0 0 40 101" />
-  </g>
-
-  <!-- Radius axis: ticks + labels along the bottom, outside the slice -->
-  <g stroke="#1a2332" stroke-width="1" fill="none">
-    <line x1="40"  y1="400" x2="40"  y2="410" />
-    <line x1="108" y1="400" x2="108" y2="410" />
-    <line x1="176" y1="400" x2="176" y2="410" />
-    <line x1="244" y1="400" x2="244" y2="410" />
-    <line x1="312" y1="400" x2="312" y2="410" />
-    <line x1="380" y1="400" x2="380" y2="410" />
-  </g>
-  <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="13" fill="#1a2332" text-anchor="middle">
-    <text x="40"  y="426">0</text>
-    <text x="108" y="426">0.2</text>
-    <text x="176" y="426">0.4</text>
-    <text x="244" y="426">0.6</text>
-    <text x="312" y="426">0.8</text>
-    <text x="380" y="426">1.0</text>
-    <text x="210" y="442" font-style="italic">R / R_Jup</text>
-  </g>
-
-  <!-- Inline region labels (horizontal) -->
-  <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-weight="600" text-anchor="middle">
-    <text x="100" y="362" font-size="13" fill="#ffffff">Fuzzy/stable<tspan x="100" dy="15">region</tspan></text>
-    <text x="220" y="290" font-size="14" fill="#ffffff">Convective region</text>
-    <text x="50" y="100" font-size="14" fill="#1a2332" text-anchor="start">Helium rain<tspan x="50" dy="16">region</tspan></text>
-  </g>
-</svg>
-</figure>
-
-<figure class="slice-fig">
-<figcaption>Saturn</figcaption>
-<svg class="jupiter-slice" viewBox="0 0 420 460" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Cross-section of Saturn's interior with heavier-element fuzzy core and a deeper, thicker helium rain layer">
-  <defs>
-    <radialGradient id="s-interior" cx="40" cy="400" r="340" gradientUnits="userSpaceOnUse">
-      <stop offset="0%"  stop-color="#7a1608" />
-      <stop offset="14%" stop-color="#d84a28" />
-      <stop offset="30%" stop-color="#b85638" />
-      <stop offset="48%" stop-color="#6e5a7c" />
-      <stop offset="60%" stop-color="#7a94be" />
-      <stop offset="64%" stop-color="#d4a04a" />
-      <stop offset="68%" stop-color="#eac881" />
-      <stop offset="74%" stop-color="#e8d7a6" />
-      <stop offset="82%" stop-color="#7c94be" />
-      <stop offset="100%" stop-color="#c2d2e3" />
-    </radialGradient>
-    <marker id="carrow-s" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto">
-      <path d="M 0 0 L 10 5 L 0 10 z" fill="#ffffff" />
-    </marker>
-    <marker id="rarrow-s" viewBox="0 0 8 8" refX="6" refY="4" markerWidth="5" markerHeight="5" orient="auto">
-      <path d="M 0 0 L 8 4 L 0 8 z" fill="#1a2332" />
-    </marker>
-  </defs>
-
-  <path d="M 40 400 L 380 400 A 340 340 0 0 0 40 60 Z"
-        fill="url(#s-interior)" stroke="#1a2332" stroke-width="1.5" stroke-linejoin="round" />
-
-  <!-- Convection cells: inner convective region -->
-  <g stroke="#ffffff" stroke-width="1.2" fill="none" opacity="0.8">
-    <!-- Inner cell A: (199,308) r=8 -->
-    <path d="M 199 316 A 8 8 0 0 1 199 300" marker-end="url(#carrow-s)" />
-    <path d="M 199 300 A 8 8 0 0 1 199 316" marker-end="url(#carrow-s)" />
-    <!-- Inner cell B: (103,228) r=8 -->
-    <path d="M 103 236 A 8 8 0 0 1 103 220" marker-end="url(#carrow-s)" />
-    <path d="M 103 220 A 8 8 0 0 1 103 236" marker-end="url(#carrow-s)" />
-    <!-- Outer cell A: (331,294) r=10 -->
-    <path d="M 331 304 A 10 10 0 0 1 331 284" marker-end="url(#carrow-s)" />
-    <path d="M 331 284 A 10 10 0 0 1 331 304" marker-end="url(#carrow-s)" />
-    <!-- Outer cell B: (239,163) r=10 -->
-    <path d="M 239 173 A 10 10 0 0 1 239 153" marker-end="url(#carrow-s)" />
-    <path d="M 239 153 A 10 10 0 0 1 239 173" marker-end="url(#carrow-s)" />
-    <!-- Outer cell C: (120,101) r=10 -->
-    <path d="M 120 111 A 10 10 0 0 1 120 91" marker-end="url(#carrow-s)" />
-    <path d="M 120 91 A 10 10 0 0 1 120 111" marker-end="url(#carrow-s)" />
-  </g>
-
-  <!-- Helium rain: inward-pointing arrows (deeper, thicker band) -->
-  <g stroke="#1a2332" stroke-width="1" fill="none">
-    <line x1="289" y1="333" x2="245" y2="345" marker-end="url(#rarrow-s)" />
-    <line x1="263" y1="271" x2="224" y2="294" marker-end="url(#rarrow-s)" />
-    <line x1="222" y1="218" x2="190" y2="250" marker-end="url(#rarrow-s)" />
-    <line x1="169" y1="177" x2="146" y2="216" marker-end="url(#rarrow-s)" />
-    <line x1="107" y1="151" x2="95"  y2="195" marker-end="url(#rarrow-s)" />
-  </g>
-
-  <g stroke="#1a2332" stroke-width="1" fill="none">
-    <line x1="40"  y1="400" x2="40"  y2="410" />
-    <line x1="108" y1="400" x2="108" y2="410" />
-    <line x1="176" y1="400" x2="176" y2="410" />
-    <line x1="244" y1="400" x2="244" y2="410" />
-    <line x1="312" y1="400" x2="312" y2="410" />
-    <line x1="380" y1="400" x2="380" y2="410" />
-  </g>
-  <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="13" fill="#1a2332" text-anchor="middle">
-    <text x="40"  y="426">0</text>
-    <text x="108" y="426">0.2</text>
-    <text x="176" y="426">0.4</text>
-    <text x="244" y="426">0.6</text>
-    <text x="312" y="426">0.8</text>
-    <text x="380" y="426">1.0</text>
-    <text x="210" y="442" font-style="italic">R / R_Sat</text>
-  </g>
-
-  <!-- Inline region label -->
-  <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-weight="600" text-anchor="middle">
-    <text x="100" y="362" font-size="13" fill="#ffffff">Fuzzy/stable<tspan x="100" dy="15">region</tspan></text>
-  </g>
-</svg>
-</figure>
-
-<figure class="slice-fig">
-<figcaption>Uranus</figcaption>
-<svg class="jupiter-slice" viewBox="0 0 420 460" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Cross-section of Uranus's interior with two fuzzy-core regions and two convective regions">
-  <defs>
-    <radialGradient id="u-interior" cx="40" cy="400" r="340" gradientUnits="userSpaceOnUse">
-      <stop offset="0%"  stop-color="#8a1d0c" />
-      <stop offset="12%" stop-color="#c8431f" />
-      <stop offset="22%" stop-color="#a55433" />
-      <stop offset="28%" stop-color="#6e5a7c" />
-      <stop offset="32%" stop-color="#4e5a7c" />
-      <stop offset="60%" stop-color="#5c7aa8" />
-      <stop offset="80%" stop-color="#7c94be" />
-      <stop offset="83%" stop-color="#a55433" />
-      <stop offset="88%" stop-color="#c8431f" />
-      <stop offset="92%" stop-color="#c8431f" />
-      <stop offset="94%" stop-color="#a55433" />
-      <stop offset="96%" stop-color="#4e5a7c" />
-      <stop offset="100%" stop-color="#b8c9dc" />
-    </radialGradient>
-    <marker id="carrow-u" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto">
-      <path d="M 0 0 L 10 5 L 0 10 z" fill="#ffffff" />
-    </marker>
-  </defs>
-
-  <path d="M 40 400 L 380 400 A 340 340 0 0 0 40 60 Z"
-        fill="url(#u-interior)" stroke="#1a2332" stroke-width="1.5" stroke-linejoin="round" />
-
-  <!-- Convection cells in the inner (main) convective region -->
-  <g stroke="#ffffff" stroke-width="1.2" fill="none" opacity="0.8">
-    <path d="M 218 327 A 10 10 0 0 1 218 307" marker-end="url(#carrow-u)" />
-    <path d="M 218 307 A 10 10 0 0 1 218 327" marker-end="url(#carrow-u)" />
-    <path d="M 152 249 A 10 10 0 0 1 152 229" marker-end="url(#carrow-u)" />
-    <path d="M 152 229 A 10 10 0 0 1 152 249" marker-end="url(#carrow-u)" />
-    <path d="M 74  217 A 10 10 0 0 1 74  197" marker-end="url(#carrow-u)" />
-    <path d="M 74  197 A 10 10 0 0 1 74  217" marker-end="url(#carrow-u)" />
-  </g>
-
-  <g stroke="#1a2332" stroke-width="1" fill="none">
-    <line x1="40"  y1="400" x2="40"  y2="410" />
-    <line x1="108" y1="400" x2="108" y2="410" />
-    <line x1="176" y1="400" x2="176" y2="410" />
-    <line x1="244" y1="400" x2="244" y2="410" />
-    <line x1="312" y1="400" x2="312" y2="410" />
-    <line x1="380" y1="400" x2="380" y2="410" />
-  </g>
-  <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="13" fill="#1a2332" text-anchor="middle">
-    <text x="40"  y="426">0</text>
-    <text x="108" y="426">0.2</text>
-    <text x="176" y="426">0.4</text>
-    <text x="244" y="426">0.6</text>
-    <text x="312" y="426">0.8</text>
-    <text x="380" y="426">1.0</text>
-    <text x="210" y="442" font-style="italic">R / R_Ura</text>
-  </g>
-
-  <!-- Outer-red-band label -->
-  <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-weight="600" fill="#ffffff" font-size="10">
-    <text x="50" y="90" text-anchor="start">Large compositional<tspan x="50" dy="14">gradient</tspan></text>
-  </g>
-</svg>
-</figure>
-
-<figure class="slice-fig">
-<figcaption>Neptune</figcaption>
-<svg class="jupiter-slice" viewBox="0 0 420 460" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Cross-section of Neptune's interior with a thin fuzzy-core band and convective regions everywhere else">
-  <defs>
-    <radialGradient id="n-interior" cx="40" cy="400" r="340" gradientUnits="userSpaceOnUse">
-      <stop offset="0%"  stop-color="#3a2412" />
-      <stop offset="22%" stop-color="#5a3a1e" />
-      <stop offset="28%" stop-color="#5a3a1e" />
-      <stop offset="31%" stop-color="#4c688c" />
-      <stop offset="36%" stop-color="#5c7aa8" />
-      <stop offset="38%" stop-color="#5c7aa8" />
-      <stop offset="39%" stop-color="#8a5040" />
-      <stop offset="40%" stop-color="#c8431f" />
-      <stop offset="41%" stop-color="#8a5040" />
-      <stop offset="43%" stop-color="#5c7aa8" />
-      <stop offset="72%" stop-color="#7c94be" />
-      <stop offset="100%" stop-color="#b8c9dc" />
-    </radialGradient>
-    <marker id="carrow-n" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto">
-      <path d="M 0 0 L 10 5 L 0 10 z" fill="#ffffff" />
-    </marker>
-  </defs>
-
-  <path d="M 40 400 L 380 400 A 340 340 0 0 0 40 60 Z"
-        fill="url(#n-interior)" stroke="#1a2332" stroke-width="1.5" stroke-linejoin="round" />
-
-  <!-- Convection cells distributed throughout convective region -->
-  <g stroke="#ffffff" stroke-width="1.2" fill="none" opacity="0.8">
-    <path d="M 228 342 A 10 10 0 0 1 228 322" marker-end="url(#carrow-n)" />
-    <path d="M 228 322 A 10 10 0 0 1 228 342" marker-end="url(#carrow-n)" />
-    <path d="M 181 269 A 10 10 0 0 1 181 249" marker-end="url(#carrow-n)" />
-    <path d="M 181 249 A 10 10 0 0 1 181 269" marker-end="url(#carrow-n)" />
-    <path d="M 108 222 A 10 10 0 0 1 108 202" marker-end="url(#carrow-n)" />
-    <path d="M 108 202 A 10 10 0 0 1 108 222" marker-end="url(#carrow-n)" />
-    <path d="M 291 265 A 10 10 0 0 1 291 245" marker-end="url(#carrow-n)" />
-    <path d="M 291 245 A 10 10 0 0 1 291 265" marker-end="url(#carrow-n)" />
-    <path d="M 185 159 A 10 10 0 0 1 185 139" marker-end="url(#carrow-n)" />
-    <path d="M 185 139 A 10 10 0 0 1 185 159" marker-end="url(#carrow-n)" />
-  </g>
-
-  <g stroke="#1a2332" stroke-width="1" fill="none">
-    <line x1="40"  y1="400" x2="40"  y2="410" />
-    <line x1="108" y1="400" x2="108" y2="410" />
-    <line x1="176" y1="400" x2="176" y2="410" />
-    <line x1="244" y1="400" x2="244" y2="410" />
-    <line x1="312" y1="400" x2="312" y2="410" />
-    <line x1="380" y1="400" x2="380" y2="410" />
-  </g>
-  <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="13" fill="#1a2332" text-anchor="middle">
-    <text x="40"  y="426">0</text>
-    <text x="108" y="426">0.2</text>
-    <text x="176" y="426">0.4</text>
-    <text x="244" y="426">0.6</text>
-    <text x="312" y="426">0.8</text>
-    <text x="380" y="426">1.0</text>
-    <text x="210" y="442" font-style="italic">R / R_Nep</text>
-  </g>
-
-  <!-- Compact-core label -->
-  <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-weight="600" text-anchor="middle">
-    <text x="90" y="385" font-size="11" fill="#ffffff">Compact core</text>
-  </g>
-</svg>
-</figure>
-</div>
+The [slideshow banner](#banner) at the top of this page shows interior sketches of Jupiter and Saturn that we've published in [Tejada Arevalo et al. (2025a)](https://iopscience.iop.org/article/10.3847/1538-4357/ada030) and [Sur et al. (2025)](https://iopscience.iop.org/article/10.3847/2041-8213/adad62), Uranus and Neptune in [Tejada Arevalo et al. (2025b)](https://iopscience.iop.org/article/10.3847/2041-8213/adf3a5), and sub-Neptunes in [Tejada Arevalo et al. (2026)](https://iopscience.iop.org/article/10.3847/1538-4357/ae5483). The arrows mark convective regions, the red regions are stable to convection, and the glowing droplets show helium rain in Jupiter and Saturn and silicate rain in sub-Neptunes.
 
 ## Publications
 1. **Tejada Arevalo R.** et al., [*ORCHARD: A General Planetary Evolution Code*](https://arxiv.org/abs/2604.24845), *ApJ* 1010 (2026).

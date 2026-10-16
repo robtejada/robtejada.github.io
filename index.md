@@ -117,6 +117,7 @@ The [slideshow banner](#banner) at the top of this page shows interior sketches 
 
 ### Contributed
 
+1. Kathuria, G. et al., (incl. **Tejada Arevalo R.**), [*An Infant Sub-Saturn in Scorpius-Centaurus*](https://ui.adsabs.harvard.edu/abs/2026arXiv260938315K/abstract), Submitted to AAS Journals, *arXiv:2609.38315* (2026).
 1. Su, Y. et al., (incl. **Tejada Arevalo R.**), [*Saturn's Evolutionary History and Seismology: Survival of Deep Stably Stratified Regions in Evolutionary Models of Saturn Consistent with Ring Seismology*](https://arxiv.org/abs/2602.02647), Accepted to *ApJ*, *arXiv:2602.02647* (2026).
 1. Chen, Y. et al., (incl. **Tejada Arevalo R.**), [*Next-generation Atmosphere Models for Giant Planets with Application to Coupled Interior Composition and Spectral Evolution. I. Cloudless Models with Equilibrium Chemistry*](https://ui.adsabs.harvard.edu/abs/2026ApJ..1006..134C/abstract), *ApJ* 1006 (2026).
 1. Sur, A. et al., (incl. **Tejada Arevalo R.**), [*Next-generation Improvements in Giant-exoplanet Evolutionary and Structural Models*](https://ui.adsabs.harvard.edu/abs/2026ApJ...998..305S/abstract), *ApJ* 998 (2026).
@@ -126,6 +127,38 @@ The [slideshow banner](#banner) at the top of this page shows interior sketches 
 1. Chen, Y. et al., (incl. **Tejada Arevalo R.**), [*Jupiter Atmospheric Models and Outer Boundary Conditions for Giant Planet Evolutionary Calculations*](https://iopscience.iop.org/article/10.3847/1538-4357/acf456), *ApJ* 957 (2023).
 
 Full and up-to-date list on [NASA ADS](https://ui.adsabs.harvard.edu/search/q=orcid%3A0000-0001-6708-3427&sort=date%20desc).
+
+## Code
+
+Both codes are public and documented in refereed papers.
+
+<div class="code-cards" markdown="0">
+  <article class="code-card">
+    <header>
+      <h3>ORCHARD</h3>
+      <p class="code-tag">A general planetary evolution code</p>
+    </header>
+    <p>The public version of our giant-planet evolution code APPLE (<a href="https://iopscience.iop.org/article/10.3847/1538-4357/ad57c3">Sur et al. 2024</a>). ORCHARD follows the coupled thermal and compositional evolution of planets across the full mass range: gas giants, ice giants, sub-Neptunes, super-Earths and terrestrial planets, with updated equations of state and atmospheric boundary conditions.</p>
+    <p class="code-meta">Python &amp; Fortran &middot; Apache 2.0</p>
+    <p class="code-links">
+      <a href="https://github.com/robtejada/orchard-public">GitHub</a>
+      <a href="https://arxiv.org/abs/2604.24845">Paper: Tejada Arevalo et al. (2026)</a>
+    </p>
+  </article>
+  <article class="code-card">
+    <header>
+      <h3>EOS</h3>
+      <p class="code-tag">Equations of state &amp; miscibility curves</p>
+    </header>
+    <p>A single home for the most up-to-date equations of state for hydrogen&ndash;helium and other materials, H&ndash;He&ndash;Z mixtures, and miscibility curves for modeling giant-planet interiors, with user-friendly Python 3 code.</p>
+    <p class="code-meta">Python &amp; Fortran &middot; MIT</p>
+    <p class="code-links">
+      <a href="https://github.com/robtejada/eos/tree/main">GitHub</a>
+      <a href="https://drive.google.com/drive/u/1/folders/1V13BQLZ9_VKWoZQp6T5i7OXp8zreIrt7">Download</a>
+      <a href="https://iopscience.iop.org/article/10.3847/1538-4365/ad6cd7">Paper: Tejada Arevalo et al. (2024)</a>
+    </p>
+  </article>
+</div>
 
 ## Recent Research Projects
 
@@ -170,38 +203,6 @@ The following plot shows that hot liquid mantles maintain larger radii by approx
 [Tejada Arevalo et al. (2021)](https://iopscience.iop.org/article/10.3847/1538-4357/ac1429) compared the measured rotation periods and velocities of hot Jupiter host stars with those of cold Jupiter and small planet host stars. We found that hot Jupiter host stars spin faster, casting additional nuance into the inferred ages of stars with stellar models.
 
 <img src="/images/2021_fig.JPG" alt="Hot Jupiter host star rotation" loading="lazy" />
-
-## Code
-
-Both codes are public and documented in refereed papers.
-
-<div class="code-cards" markdown="0">
-  <article class="code-card">
-    <header>
-      <h3>ORCHARD</h3>
-      <p class="code-tag">A general planetary evolution code</p>
-    </header>
-    <p>The public version of our giant-planet evolution code APPLE (<a href="https://iopscience.iop.org/article/10.3847/1538-4357/ad57c3">Sur et al. 2024</a>). ORCHARD follows the coupled thermal and compositional evolution of planets across the full mass range: gas giants, ice giants, sub-Neptunes, super-Earths and terrestrial planets, with updated equations of state and atmospheric boundary conditions.</p>
-    <p class="code-meta">Python &amp; Fortran &middot; Apache 2.0</p>
-    <p class="code-links">
-      <a href="https://github.com/robtejada/orchard-public">GitHub</a>
-      <a href="https://arxiv.org/abs/2604.24845">Paper: Tejada Arevalo et al. (2026)</a>
-    </p>
-  </article>
-  <article class="code-card">
-    <header>
-      <h3>EOS</h3>
-      <p class="code-tag">Equations of state &amp; miscibility curves</p>
-    </header>
-    <p>A single home for the most up-to-date equations of state for hydrogen&ndash;helium and other materials, H&ndash;He&ndash;Z mixtures, and miscibility curves for modeling giant-planet interiors, with user-friendly Python 3 code.</p>
-    <p class="code-meta">Python &amp; Fortran &middot; MIT</p>
-    <p class="code-links">
-      <a href="https://github.com/robtejada/eos/tree/main">GitHub</a>
-      <a href="https://drive.google.com/drive/u/1/folders/1V13BQLZ9_VKWoZQp6T5i7OXp8zreIrt7">Download</a>
-      <a href="https://iopscience.iop.org/article/10.3847/1538-4365/ad6cd7">Paper: Tejada Arevalo et al. (2024)</a>
-    </p>
-  </article>
-</div>
 
 ## Beyond Research
 

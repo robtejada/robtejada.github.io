@@ -98,35 +98,10 @@ My current work follows four directions.
 
 - **The origin and fate of fuzzy cores.** Jupiter holds an extended, dilute core whose origin remains an open question. With ORCHARD, we are testing how core erosion, convective overshoot and semiconvection shape such a core over Jupiter's history, together with formation models that provide self-consistent initial conditions.
 - **Hot Jupiters with coupled orbits and interiors.** We have coupled ORCHARD to an orbital evolution code, so that tidal heating changes the radius and tidal response of the planet, which in turn changes its orbit. Early results suggest that a hot Jupiter undergoing high-eccentricity migration can completely mix a primordial fuzzy core.
-- **Young exoplanets.** Planets only tens of Myr old still carry much of the heat of their formation. Their radii constrain both their heavy-element content and their initial entropy, which links interior models to how these planets formed (see, e.g., our work on [V1298 Tau](https://iopscience.iop.org/article/10.3847/2041-8213/ac70e0)).
-- **Ice giants and their exoplanet cousins.** Following our work on [Uranus and Neptune](https://iopscience.iop.org/article/10.3847/2041-8213/adf3a5), we are building methane and ammonia equations of state from fits to the Helmholtz free energy. These tables will show how the relative abundances of carbon, nitrogen and oxygen in the ices shape the evolution of Uranus, Neptune and sub-Neptune exoplanets.
+- **Young exoplanets.** Planets younger than 100 Myr may still remember their initial conditions. We are forward-modeling the twenty-nine known transiting examples with ORCHARD, including mass loss and the erosion of dilute cores, to test whether their predicted sizes at Gyr ages match the radii of mature planets. Our models of the &sim;15 Myr-old TIC 88297141 Ab ([Kathuria et al. 2026](https://ui.adsabs.harvard.edu/abs/2026arXiv260938315K/abstract)) suggest that it is likely a sub-Neptune with a core mass fraction of &sim;70&ndash;90%.
+- **Ice giants and their exoplanet cousins.** Following our work on [Uranus and Neptune](https://iopscience.iop.org/article/10.3847/2041-8213/adf3a5), we are building the first equations of state for methane, ammonia and water mixed with silicates with adjustable CNO ratios, each fit to a single Helmholtz free energy. In our Uranus models, the CNO ratio alone shifts J<sub>2</sub> by up to 15% and J<sub>4</sub> by up to 30%, so these public tables will help interpret the gravity data expected from the Uranus Orbiter and Probe, as well as sub-Neptunes and water worlds.
 
 The [slideshow banner](#banner) at the top of this page shows interior sketches of Jupiter and Saturn that we've published in [Tejada Arevalo et al. (2025a)](https://iopscience.iop.org/article/10.3847/1538-4357/ada030) and [Sur et al. (2025)](https://iopscience.iop.org/article/10.3847/2041-8213/adad62), Uranus and Neptune in [Tejada Arevalo et al. (2025b)](https://iopscience.iop.org/article/10.3847/2041-8213/adf3a5), and sub-Neptunes in [Tejada Arevalo et al. (2026)](https://iopscience.iop.org/article/10.3847/1538-4357/ae5483). The arrows mark convective regions, the red regions are stable to convection, and the glowing droplets show helium rain in Jupiter and Saturn and silicate rain in sub-Neptunes.
-
-## Publications
-
-### First-author
-
-1. **Tejada Arevalo R.** et al., [*ORCHARD: A General Planetary Evolution Code*](https://arxiv.org/abs/2604.24845), *ApJ* 1010 (2026).
-1. **Tejada Arevalo R.** et al., [*Sub-Neptune Memories I: Implications of Inefficient Mantle Cooling and Silicate Rain*](https://iopscience.iop.org/article/10.3847/1538-4357/ae5483), *ApJ* 1001 (2026).
-1. **Tejada Arevalo R.**, [*Different Inhomogeneous Evolutionary Histories for Uranus and Neptune*](https://iopscience.iop.org/article/10.3847/2041-8213/adf3a5), *ApJL* 989 (2025).
-1. **Tejada Arevalo R.**, et al., [*Jupiter Evolutionary Models Incorporating Stably Stratified Regions*](https://iopscience.iop.org/article/10.3847/1538-4357/ada030), *ApJ* 979 (2025).
-1. **Tejada Arevalo R.**, et al., [*Equations of State, Thermodynamics, and Miscibility Curves for Jovian Planet and Giant Exoplanet Evolutionary Models*](https://iopscience.iop.org/article/10.3847/1538-4365/ad6cd7), *ApJS* 274 (2024).
-1. **Tejada Arevalo R.**, et al., [*Stability Constrained Characterization of the 23 Myr Old V1298 Tau System: Do Young Planets Form in Mean Motion Resonance Chains?*](https://iopscience.iop.org/article/10.3847/2041-8213/ac70e0), *ApJL* 932 (2022).
-1. **Tejada Arevalo R.**, et al., [*Further Evidence for Tidal Spin-up of Hot Jupiter Host Stars*](https://iopscience.iop.org/article/10.3847/1538-4357/ac1429), *ApJ* 919 (2021).
-
-### Contributed
-
-1. Kathuria, G. et al., (incl. **Tejada Arevalo R.**), [*An Infant Sub-Saturn in Scorpius-Centaurus*](https://ui.adsabs.harvard.edu/abs/2026arXiv260938315K/abstract), Submitted to AAS Journals, *arXiv:2609.38315* (2026).
-1. Su, Y. et al., (incl. **Tejada Arevalo R.**), [*Saturn's Evolutionary History and Seismology: Survival of Deep Stably Stratified Regions in Evolutionary Models of Saturn Consistent with Ring Seismology*](https://arxiv.org/abs/2602.02647), Accepted to *ApJ*, *arXiv:2602.02647* (2026).
-1. Chen, Y. et al., (incl. **Tejada Arevalo R.**), [*Next-generation Atmosphere Models for Giant Planets with Application to Coupled Interior Composition and Spectral Evolution. I. Cloudless Models with Equilibrium Chemistry*](https://ui.adsabs.harvard.edu/abs/2026ApJ..1006..134C/abstract), *ApJ* 1006 (2026).
-1. Sur, A. et al., (incl. **Tejada Arevalo R.**), [*Next-generation Improvements in Giant-exoplanet Evolutionary and Structural Models*](https://ui.adsabs.harvard.edu/abs/2026ApJ...998..305S/abstract), *ApJ* 998 (2026).
-1. Sur, A. et al., (incl. **Tejada Arevalo R.**), [*The Evolution of Jupiter and Saturn as a Function of the R<sub>ρ</sub> Parameter*](https://ui.adsabs.harvard.edu/abs/2025ApJ...994..186S/abstract), *ApJ* 994 (2025).
-1. Sur, A. et al., (incl. **Tejada Arevalo R.**), [*Simultaneous Evolutionary Fits for Jupiter and Saturn Incorporating Fuzzy Cores*](https://iopscience.iop.org/article/10.3847/2041-8213/adad62), *ApJL* 980 (2025).
-1. Sur, A. et al., (incl. **Tejada Arevalo R.**), [*APPLE: An Evolution Code for Modeling Giant Planets*](https://iopscience.iop.org/article/10.3847/1538-4357/ad57c3), *ApJ* 971 (2024).
-1. Chen, Y. et al., (incl. **Tejada Arevalo R.**), [*Jupiter Atmospheric Models and Outer Boundary Conditions for Giant Planet Evolutionary Calculations*](https://iopscience.iop.org/article/10.3847/1538-4357/acf456), *ApJ* 957 (2023).
-
-Full and up-to-date list on [NASA ADS](https://ui.adsabs.harvard.edu/search/q=orcid%3A0000-0001-6708-3427&sort=date%20desc).
 
 ## Code
 
@@ -159,6 +134,31 @@ Both codes are public and documented in refereed papers.
     </p>
   </article>
 </div>
+
+## Publications
+
+### First-author
+
+1. **Tejada Arevalo R.** et al., [*ORCHARD: A General Planetary Evolution Code*](https://arxiv.org/abs/2604.24845), *ApJ* 1010 (2026).
+1. **Tejada Arevalo R.** et al., [*Sub-Neptune Memories I: Implications of Inefficient Mantle Cooling and Silicate Rain*](https://iopscience.iop.org/article/10.3847/1538-4357/ae5483), *ApJ* 1001 (2026).
+1. **Tejada Arevalo R.**, [*Different Inhomogeneous Evolutionary Histories for Uranus and Neptune*](https://iopscience.iop.org/article/10.3847/2041-8213/adf3a5), *ApJL* 989 (2025).
+1. **Tejada Arevalo R.**, et al., [*Jupiter Evolutionary Models Incorporating Stably Stratified Regions*](https://iopscience.iop.org/article/10.3847/1538-4357/ada030), *ApJ* 979 (2025).
+1. **Tejada Arevalo R.**, et al., [*Equations of State, Thermodynamics, and Miscibility Curves for Jovian Planet and Giant Exoplanet Evolutionary Models*](https://iopscience.iop.org/article/10.3847/1538-4365/ad6cd7), *ApJS* 274 (2024).
+1. **Tejada Arevalo R.**, et al., [*Stability Constrained Characterization of the 23 Myr Old V1298 Tau System: Do Young Planets Form in Mean Motion Resonance Chains?*](https://iopscience.iop.org/article/10.3847/2041-8213/ac70e0), *ApJL* 932 (2022).
+1. **Tejada Arevalo R.**, et al., [*Further Evidence for Tidal Spin-up of Hot Jupiter Host Stars*](https://iopscience.iop.org/article/10.3847/1538-4357/ac1429), *ApJ* 919 (2021).
+
+### Contributed
+
+1. Kathuria, G. et al., (incl. **Tejada Arevalo R.**), [*An Infant Sub-Saturn in Scorpius-Centaurus*](https://ui.adsabs.harvard.edu/abs/2026arXiv260938315K/abstract), Submitted to AAS Journals, *arXiv:2609.38315* (2026).
+1. Su, Y. et al., (incl. **Tejada Arevalo R.**), [*Saturn's Evolutionary History and Seismology: Survival of Deep Stably Stratified Regions in Evolutionary Models of Saturn Consistent with Ring Seismology*](https://arxiv.org/abs/2602.02647), Accepted to *ApJ*, *arXiv:2602.02647* (2026).
+1. Chen, Y. et al., (incl. **Tejada Arevalo R.**), [*Next-generation Atmosphere Models for Giant Planets with Application to Coupled Interior Composition and Spectral Evolution. I. Cloudless Models with Equilibrium Chemistry*](https://ui.adsabs.harvard.edu/abs/2026ApJ..1006..134C/abstract), *ApJ* 1006 (2026).
+1. Sur, A. et al., (incl. **Tejada Arevalo R.**), [*Next-generation Improvements in Giant-exoplanet Evolutionary and Structural Models*](https://ui.adsabs.harvard.edu/abs/2026ApJ...998..305S/abstract), *ApJ* 998 (2026).
+1. Sur, A. et al., (incl. **Tejada Arevalo R.**), [*The Evolution of Jupiter and Saturn as a Function of the R<sub>ρ</sub> Parameter*](https://ui.adsabs.harvard.edu/abs/2025ApJ...994..186S/abstract), *ApJ* 994 (2025).
+1. Sur, A. et al., (incl. **Tejada Arevalo R.**), [*Simultaneous Evolutionary Fits for Jupiter and Saturn Incorporating Fuzzy Cores*](https://iopscience.iop.org/article/10.3847/2041-8213/adad62), *ApJL* 980 (2025).
+1. Sur, A. et al., (incl. **Tejada Arevalo R.**), [*APPLE: An Evolution Code for Modeling Giant Planets*](https://iopscience.iop.org/article/10.3847/1538-4357/ad57c3), *ApJ* 971 (2024).
+1. Chen, Y. et al., (incl. **Tejada Arevalo R.**), [*Jupiter Atmospheric Models and Outer Boundary Conditions for Giant Planet Evolutionary Calculations*](https://iopscience.iop.org/article/10.3847/1538-4357/acf456), *ApJ* 957 (2023).
+
+Full and up-to-date list on [NASA ADS](https://ui.adsabs.harvard.edu/search/q=orcid%3A0000-0001-6708-3427&sort=date%20desc).
 
 ## Recent Research Projects
 

@@ -96,26 +96,33 @@ body {
   position: relative;
   height: 100%;
 }
-/* Curtain: slides are stacked; .is-current is shown, .is-top slides over it. */
+/* Crossfade: slides are stacked; .is-current is shown, .is-top fades in over it. */
 .hero-slide {
   position: absolute;
   inset: 0;
   margin: 0;
   background: #000;
   visibility: hidden;
+  opacity: 0;                            /* resting state is transparent, so a fade always starts from 0 */
 }
 .hero-slide.is-current {
   visibility: visible;
   z-index: 1;
+  opacity: 1;
 }
 .hero-slide.is-top {
   visibility: visible;
   z-index: 2;
-  box-shadow: 1.5rem 0 3rem rgba(0, 0, 0, 0.9);
-  transition: transform 1.3s cubic-bezier(0.65, 0, 0.35, 1);
+  opacity: 0;
+  transition: opacity 1.5s ease-in-out;
 }
-.hero-slide.is-off {
-  transform: translateX(-100%);
+.hero-slide.is-top.is-in {
+  opacity: 1;
+}
+/* hide the outgoing caption during a fade so the two credits never overlap */
+.hero-track:has(.is-top) .hero-slide.is-current figcaption {
+  opacity: 0;
+  transition: opacity 0.25s;
 }
 .page-content .hero-slide img {
   width: 100%;

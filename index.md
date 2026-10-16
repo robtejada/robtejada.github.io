@@ -205,8 +205,12 @@ Both codes are public and documented in refereed papers.
 
 ## Beyond Research
 
-Like many astronomers, I am passionate about the outdoors and visit national parks whenever I can. The photo shown here was taken at the Matanuska Glacier in Alaska. I am an enthusiastic weightlifter, and believe strongly in the connection between physical health and mental health. 
-<img src="/images/glacier_me.JPG" alt="At the Matanuska Glacier, Alaska" loading="lazy" style="max-width: 400px;" />
+Like many astronomers, I am passionate about the outdoors and visit national parks whenever I can. The photos below were taken at the Matanuska Glacier in Alaska and at the top of Yosemite Falls in California. I am an enthusiastic weightlifter, and believe strongly in the connection between physical health and mental health.
+
+<div class="figure-pair" markdown="0">
+  <img src="/images/glacier_me.JPG" alt="At the Matanuska Glacier, Alaska" loading="lazy" />
+  <img src="/images/yosemite_falls_top.jpg" alt="Sitting on a boulder at the top of Yosemite Falls, above Yosemite Valley" loading="lazy" />
+</div>
 
 ## Contact
 

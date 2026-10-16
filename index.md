@@ -112,6 +112,7 @@ Both codes are public and documented in refereed papers.
     <p class="code-meta">Python &amp; Fortran &middot; Apache 2.0</p>
     <p class="code-links">
       <a href="https://github.com/robtejada/orchard-public">GitHub</a>
+      <a href="https://zenodo.org/records/22035834">Download</a>
       <a href="https://arxiv.org/abs/2604.24845">Paper: Tejada Arevalo et al. (2026)</a>
     </p>
   </article>
@@ -124,7 +125,7 @@ Both codes are public and documented in refereed papers.
     <p class="code-meta">Python &amp; Fortran &middot; MIT</p>
     <p class="code-links">
       <a href="https://github.com/robtejada/eos/tree/main">GitHub</a>
-      <a href="https://drive.google.com/drive/u/1/folders/1V13BQLZ9_VKWoZQp6T5i7OXp8zreIrt7">Download</a>
+      <a href="https://zenodo.org/records/21812109">Download</a>
       <a href="https://iopscience.iop.org/article/10.3847/1538-4365/ad6cd7">Paper: Tejada Arevalo et al. (2024)</a>
     </p>
   </article>

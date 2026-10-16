@@ -7,6 +7,16 @@ author:  ""                      # ← keep this empty
 email:   "roaareva(AT)ucsc.edu"
 
 # Added navigation configuration to remove the Research tab
-navigation:
-  - title: "Welcome"
-    url: "/"
+navigation:                      # header menu (anchors into the single page; see _includes/header.html)
+  - title: "Research"
+    url: "/#research-interests"
+  - title: "Publications"
+    url: "/#publications"
+  - title: "Projects"
+    url: "/#recent-research-projects"
+  - title: "Code"
+    url: "/#software"
+  - title: "Contact"
+    url: "/#contact"
+  - title: "CV"
+    url: "/assets/cv_2026.pdf"

@@ -87,13 +87,20 @@ title: "Welcome"
 
 ## About
 
+I am a University of California Presidential Postdoctoral Fellow at UC Santa Cruz, working with Jonathan Fortney. I received my PhD in astrophysics from Princeton University in 2026, where I worked with Adam Burrows.
 I am a planetary modeler broadly interested in planetary evolution, formation, and internal dynamics. My academic journey has been non-traditional: I began my higher education at a community college three years after graduating from high school. I am committed not only to advancing my research but also to mentoring and supporting others from disadvantaged backgrounds on their academic journeys.
 
 ## Research Interests
 
-I am a University of California Presidential Postdoctoral Fellow at UC Santa Cruz, working with Jonathan Fortney. I received my PhD in astrophysics from Princeton University in 2026, where I worked with Adam Burrows.
-I am broadly interested in the interior evolution of the Solar System gas giant planets. A better understanding of the gas giants in our Solar System will grant us a better understanding of the formation and evolution of gas giant exoplanets more broadly.
-My thesis work encompasses the evolution of Jupiter, Saturn, Uranus and Neptune, and recently, the evolution of sub-Neptune exoplanets.
+I study how planets evolve from the inside out. The giant planets of the Solar System are the best-measured planetary interiors we have, since *Juno*, *Cassini* and *Voyager 2* constrain their gravity fields, atmospheres and heat flows. My work uses these planets to calibrate the physics of evolution models, such as composition gradients, helium and silicate rain, and convective mixing, and then applies these lessons to exoplanets, where only masses, radii and atmospheric spectra are available.
+
+My current work follows four directions.
+
+- **The origin and fate of fuzzy cores.** Jupiter holds an extended, dilute core whose origin remains an open question. With ORCHARD, we are testing how core erosion, convective overshoot and semiconvection shape such a core over Jupiter's history, together with formation models that provide self-consistent initial conditions.
+- **Hot Jupiters with coupled orbits and interiors.** We have coupled ORCHARD to an orbital evolution code, so that tidal heating changes the radius and tidal response of the planet, which in turn changes its orbit. Early results suggest that a hot Jupiter undergoing high-eccentricity migration can completely mix a primordial fuzzy core.
+- **Young exoplanets.** Planets only tens of Myr old still carry much of the heat of their formation. Their radii constrain both their heavy-element content and their initial entropy, which links interior models to how these planets formed (see, e.g., our work on [V1298 Tau](https://iopscience.iop.org/article/10.3847/2041-8213/ac70e0)).
+- **Ice giants and their exoplanet cousins.** Following our work on [Uranus and Neptune](https://iopscience.iop.org/article/10.3847/2041-8213/adf3a5), we are building methane and ammonia equations of state from fits to the Helmholtz free energy. These tables will show how the relative abundances of carbon, nitrogen and oxygen in the ices shape the evolution of Uranus, Neptune and sub-Neptune exoplanets.
+
 The [slideshow banner](#banner) at the top of this page shows interior sketches of Jupiter and Saturn that we've published in [Tejada Arevalo et al. (2025a)](https://iopscience.iop.org/article/10.3847/1538-4357/ada030) and [Sur et al. (2025)](https://iopscience.iop.org/article/10.3847/2041-8213/adad62), Uranus and Neptune in [Tejada Arevalo et al. (2025b)](https://iopscience.iop.org/article/10.3847/2041-8213/adf3a5), and sub-Neptunes in [Tejada Arevalo et al. (2026)](https://iopscience.iop.org/article/10.3847/1538-4357/ae5483). The arrows mark convective regions, the red regions are stable to convection, and the glowing droplets show helium rain in Jupiter and Saturn and silicate rain in sub-Neptunes.
 
 ## Publications
@@ -111,6 +118,9 @@ The [slideshow banner](#banner) at the top of this page shows interior sketches 
 ### Contributed
 
 1. Su, Y. et al., (incl. **Tejada Arevalo R.**), [*Saturn's Evolutionary History and Seismology: Survival of Deep Stably Stratified Regions in Evolutionary Models of Saturn Consistent with Ring Seismology*](https://arxiv.org/abs/2602.02647), Accepted to *ApJ*, *arXiv:2602.02647* (2026).
+1. Chen, Y. et al., (incl. **Tejada Arevalo R.**), [*Next-generation Atmosphere Models for Giant Planets with Application to Coupled Interior Composition and Spectral Evolution. I. Cloudless Models with Equilibrium Chemistry*](https://ui.adsabs.harvard.edu/abs/2026ApJ..1006..134C/abstract), *ApJ* 1006 (2026).
+1. Sur, A. et al., (incl. **Tejada Arevalo R.**), [*Next-generation Improvements in Giant-exoplanet Evolutionary and Structural Models*](https://ui.adsabs.harvard.edu/abs/2026ApJ...998..305S/abstract), *ApJ* 998 (2026).
+1. Sur, A. et al., (incl. **Tejada Arevalo R.**), [*The Evolution of Jupiter and Saturn as a Function of the R<sub>ρ</sub> Parameter*](https://ui.adsabs.harvard.edu/abs/2025ApJ...994..186S/abstract), *ApJ* 994 (2025).
 1. Sur, A. et al., (incl. **Tejada Arevalo R.**), [*Simultaneous Evolutionary Fits for Jupiter and Saturn Incorporating Fuzzy Cores*](https://iopscience.iop.org/article/10.3847/2041-8213/adad62), *ApJL* 980 (2025).
 1. Sur, A. et al., (incl. **Tejada Arevalo R.**), [*APPLE: An Evolution Code for Modeling Giant Planets*](https://iopscience.iop.org/article/10.3847/1538-4357/ad57c3), *ApJ* 971 (2024).
 1. Chen, Y. et al., (incl. **Tejada Arevalo R.**), [*Jupiter Atmospheric Models and Outer Boundary Conditions for Giant Planet Evolutionary Calculations*](https://iopscience.iop.org/article/10.3847/1538-4357/acf456), *ApJ* 957 (2023).
@@ -161,17 +171,46 @@ The following plot shows that hot liquid mantles maintain larger radii by approx
 
 <img src="/images/2021_fig.JPG" alt="Hot Jupiter host star rotation" loading="lazy" />
 
-## Software
+## Code
 
-Our planetary evolution code, ORCHARD, a public version of APPLE ([Sur et al. 2024](https://iopscience.iop.org/article/10.3847/1538-4357/ad57c3)), is described in [Tejada Arevalo et al. (2026b)](https://arxiv.org/abs/2604.24845) and available [here](https://github.com/robtejada/orchard-public).
+Both codes are public and documented in refereed papers.
 
-I put together a repo that centralizes the most updated equations of state for H-He and other materials, along with miscibility curves, for modeling gas giant interiors. I provide user-friendly Python 3 code along with H-He-Z mixtures. The details are described in [Tejada Arevalo et al. (2024)](https://iopscience.iop.org/article/10.3847/1538-4365/ad6cd7).
-The GitHub repo can be found [here](https://github.com/robtejada/eos/tree/main). A downloadable version can be found [here](https://drive.google.com/drive/u/1/folders/1V13BQLZ9_VKWoZQp6T5i7OXp8zreIrt7).
+<div class="code-cards" markdown="0">
+  <article class="code-card">
+    <header>
+      <h3>ORCHARD</h3>
+      <p class="code-tag">A general planetary evolution code</p>
+    </header>
+    <p>The public version of our giant-planet evolution code APPLE (<a href="https://iopscience.iop.org/article/10.3847/1538-4357/ad57c3">Sur et al. 2024</a>). ORCHARD follows the coupled thermal and compositional evolution of planets across the full mass range: gas giants, ice giants, sub-Neptunes, super-Earths and terrestrial planets, with updated equations of state and atmospheric boundary conditions.</p>
+    <p class="code-meta">Python &amp; Fortran &middot; Apache 2.0</p>
+    <p class="code-links">
+      <a href="https://github.com/robtejada/orchard-public">GitHub</a>
+      <a href="https://arxiv.org/abs/2604.24845">Paper: Tejada Arevalo et al. (2026)</a>
+    </p>
+  </article>
+  <article class="code-card">
+    <header>
+      <h3>EOS</h3>
+      <p class="code-tag">Equations of state &amp; miscibility curves</p>
+    </header>
+    <p>A single home for the most up-to-date equations of state for hydrogen&ndash;helium and other materials, H&ndash;He&ndash;Z mixtures, and miscibility curves for modeling giant-planet interiors, with user-friendly Python 3 code.</p>
+    <p class="code-meta">Python &amp; Fortran &middot; MIT</p>
+    <p class="code-links">
+      <a href="https://github.com/robtejada/eos/tree/main">GitHub</a>
+      <a href="https://drive.google.com/drive/u/1/folders/1V13BQLZ9_VKWoZQp6T5i7OXp8zreIrt7">Download</a>
+      <a href="https://iopscience.iop.org/article/10.3847/1538-4365/ad6cd7">Paper: Tejada Arevalo et al. (2024)</a>
+    </p>
+  </article>
+</div>
 
 ## Beyond Research
 
-Like many astronomers, I am passionate about the outdoors and visit national parks whenever I can. The photo shown here was taken at the Matanuska Glacier in Alaska. I am an enthusiastic weightlifter, and believe strongly in the connection between physical health and mental health. 
-<img src="/images/glacier_me.JPG" alt="At the Matanuska Glacier, Alaska" loading="lazy" style="max-width: 400px;" />
+Like many astronomers, I am passionate about the outdoors and visit national parks whenever I can. The photos below were taken at the Matanuska Glacier in Alaska and at the top of Yosemite Falls in California. I am an enthusiastic weightlifter, and believe strongly in the connection between physical health and mental health.
+
+<div class="figure-pair" markdown="0">
+  <img src="/images/glacier_me.JPG" alt="At the Matanuska Glacier, Alaska" loading="lazy" />
+  <img src="/images/yosemite_falls_top.jpg" alt="Sitting on a boulder at the top of Yosemite Falls, above Yosemite Valley" loading="lazy" />
+</div>
 
 ## Contact
 

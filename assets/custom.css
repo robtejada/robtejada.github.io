@@ -300,6 +300,65 @@ body {
   color: #ffffff;
 }
 
+/* Code cards */
+.code-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1.25rem;
+  margin: 1rem 0 1.5rem;
+}
+.code-card {
+  border: 1px solid #e5e7eb;
+  border-radius: 10px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  background: #ffffff;
+}
+.code-card header {
+  background: #1a2332;
+  padding: 0.9rem 1.1rem 0.8rem;
+}
+.main-col .code-card h3 {
+  color: #ffffff;
+  margin: 0;
+  font-size: 1.25rem;
+  letter-spacing: 0.08em;
+}
+.code-card .code-tag {
+  color: #93c5fd;
+  margin: 0.15rem 0 0;
+  font-size: 0.9rem;
+}
+.code-card > p {
+  margin: 0.8rem 1.1rem 0;
+  font-size: 0.95rem;
+}
+.code-card .code-meta {
+  color: #6b7280;
+  font-size: 0.85rem;
+}
+.code-card .code-links {
+  margin-top: auto;
+  padding: 0.9rem 0 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+.code-card .code-links a {
+  border: 1px solid #1a2332;
+  border-radius: 6px;
+  padding: 0.3rem 0.75rem;
+  font-size: 0.85rem;
+  color: #1a2332;
+  text-decoration: none;
+}
+.code-card .code-links a:hover,
+.code-card .code-links a:focus {
+  background: #1a2332;
+  color: #ffffff;
+}
+
 /* Contact block */
 .contact-grid {
   display: grid;

@@ -15,7 +15,7 @@ navigation:                      # header menu (anchors into the single page; se
   - title: "Projects"
     url: "/#recent-research-projects"
   - title: "Code"
-    url: "/#software"
+    url: "/#code"
   - title: "Contact"
     url: "/#contact"
   - title: "CV"

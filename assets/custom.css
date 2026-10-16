@@ -9,6 +9,10 @@ html, body {
   background: #ffffff;
   color: #333;
 }
+body {
+  height: auto;                          /* a fixed body height would stop the sticky header after one screen */
+  min-height: 100%;
+}
 
 /* --- Minima site-header: blend into dark banner ------------- */
 .site-header {
@@ -45,6 +49,24 @@ html, body {
 .site-nav a:hover,
 .site-nav a:focus {
   color: #ffffff;
+}
+/* Section menu stays reachable while scrolling; jumps land below it */
+.site-header {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+.main-col h2[id] {
+  scroll-margin-top: 4.5rem;
+}
+@media (max-width: 600px) {
+  .site-nav {
+    background: #1a2332;
+    border-color: rgba(255, 255, 255, 0.2);
+  }
+  .site-nav .menu-icon > svg path {
+    fill: rgba(255, 255, 255, 0.85);
+  }
 }
 
 /* --- Hide Minima's "Welcome" page heading ------------------ */
@@ -121,7 +143,7 @@ body {
   left: 6%;
   top: 50%;
   transform: translateY(-50%);
-  max-width: 28rem;
+  max-width: 34rem;
   color: #fff;
   text-shadow: 0 2px 18px rgba(0, 0, 0, 0.85);
 }
@@ -130,7 +152,7 @@ body {
 }
 .hero-kicker {
   font-size: 0.85rem;
-  letter-spacing: 0.3em;
+  letter-spacing: 0.18em;
   text-transform: uppercase;
   color: #93c5fd;
 }
@@ -203,7 +225,7 @@ body {
 }
 .side-profile {
   position: sticky;
-  top: 1rem;
+  top: 4.5rem;
   background: #1a2332;
   color: #ffffff;
   padding: 1.5rem 1.25rem 1.5rem;
@@ -247,6 +269,62 @@ body {
 }
 .side-profile .side-links a {
   margin: 0 0.3rem;
+}
+.side-profile a.cv-button,
+.main-col a.cv-button {
+  display: inline-block;
+  margin-top: 0.9rem;
+  padding: 0.45rem 1.1rem;
+  border: 1px solid #93c5fd;
+  border-radius: 6px;
+  color: #ffffff;
+  background: rgba(147, 197, 253, 0.12);
+  font-size: 0.9rem;
+  letter-spacing: 0.04em;
+  text-decoration: none;
+}
+.side-profile a.cv-button:hover,
+.side-profile a.cv-button:focus {
+  background: rgba(147, 197, 253, 0.3);
+  text-decoration: none;
+}
+.main-col a.cv-button {
+  margin-top: 0.4rem;
+  border-color: #1a2332;
+  color: #1a2332;
+  background: transparent;
+}
+.main-col a.cv-button:hover,
+.main-col a.cv-button:focus {
+  background: #1a2332;
+  color: #ffffff;
+}
+
+/* Contact block */
+.contact-grid {
+  display: grid;
+  grid-template-columns: max-content 1fr;
+  gap: 0.35rem 1.25rem;
+  margin: 0.5rem 0 1rem;
+}
+.contact-grid dt {
+  font-size: 0.8rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: #6b7280;
+  padding-top: 0.15rem;
+}
+.contact-grid dd {
+  margin: 0;
+}
+@media (max-width: 600px) {
+  .contact-grid {
+    grid-template-columns: 1fr;
+    gap: 0.1rem;
+  }
+  .contact-grid dd {
+    margin-bottom: 0.6rem;
+  }
 }
 
 /* --- White body content ------------------------------------ */

@@ -8,7 +8,7 @@ title: "Welcome"
     <figure class="hero-slide is-current" aria-label="1 of 13">
       <img src="/images/banner/juno_jupiter.jpg" alt="Jupiter's southern hemisphere imaged by NASA's Juno spacecraft" />
       <div class="hero-welcome">
-        <p class="hero-kicker">Welcome</p>
+        <p class="hero-kicker">Roberto Tejada Arevalo &middot; UC Santa Cruz</p>
         <p class="hero-title">Planetary interiors &amp; evolution</p>
         <p class="hero-sub">What lies beneath the clouds of the giant planets?</p>
       </div>
@@ -79,8 +79,9 @@ title: "Welcome"
     <a href="mailto:roaareva@ucsc.edu">Email</a> |
     <a href="https://github.com/robtejada" target="_blank" rel="noopener">GitHub</a> |
     <a href="https://orcid.org/0000-0001-6708-3427" target="_blank" rel="noopener">ORCID</a> |
-    <a href="/assets/cv_2026.pdf">CV (PDF)</a>
+    <a href="https://ui.adsabs.harvard.edu/search/q=orcid%3A0000-0001-6708-3427&sort=date%20desc" target="_blank" rel="noopener">ADS</a>
   </p>
+  <a class="cv-button" href="/assets/cv_2026.pdf">Download CV (PDF)</a>
 </aside>
 <div class="main-col" markdown="1">
 
@@ -96,17 +97,25 @@ My thesis work encompasses the evolution of Jupiter, Saturn, Uranus and Neptune,
 The [slideshow banner](#banner) at the top of this page shows interior sketches of Jupiter and Saturn that we've published in [Tejada Arevalo et al. (2025a)](https://iopscience.iop.org/article/10.3847/1538-4357/ada030) and [Sur et al. (2025)](https://iopscience.iop.org/article/10.3847/2041-8213/adad62), Uranus and Neptune in [Tejada Arevalo et al. (2025b)](https://iopscience.iop.org/article/10.3847/2041-8213/adf3a5), and sub-Neptunes in [Tejada Arevalo et al. (2026)](https://iopscience.iop.org/article/10.3847/1538-4357/ae5483). The arrows mark convective regions, the red regions are stable to convection, and the glowing droplets show helium rain in Jupiter and Saturn and silicate rain in sub-Neptunes.
 
 ## Publications
+
+### First-author
+
 1. **Tejada Arevalo R.** et al., [*ORCHARD: A General Planetary Evolution Code*](https://arxiv.org/abs/2604.24845), *ApJ* 1010 (2026).
 1. **Tejada Arevalo R.** et al., [*Sub-Neptune Memories I: Implications of Inefficient Mantle Cooling and Silicate Rain*](https://iopscience.iop.org/article/10.3847/1538-4357/ae5483), *ApJ* 1001 (2026).
-2. **Tejada Arevalo R.**, [*Different Inhomogeneous Evolutionary Histories for Uranus and Neptune*](https://iopscience.iop.org/article/10.3847/2041-8213/adf3a5), *ApJL* 989 (2025).
-3. **Tejada Arevalo R.**, et al., [*Jupiter Evolutionary Models Incorporating Stably Stratified Regions*](https://iopscience.iop.org/article/10.3847/1538-4357/ada030), *ApJ* 979 (2025).
-4. Sur, A. et al., (incl. **Tejada Arevalo R.**), [*Simultaneous Evolutionary Fits for Jupiter and Saturn Incorporating Fuzzy Cores*](https://iopscience.iop.org/article/10.3847/2041-8213/adad62), *ApJL* 980 (2025).
-5. **Tejada Arevalo R.**, et al., [*Equations of State, Thermodynamics, and Miscibility Curves for Jovian Planet and Giant Exoplanet Evolutionary Models*](https://iopscience.iop.org/article/10.3847/1538-4365/ad6cd7), *ApJS* 274 (2024).
-6. Su, Y. et al., (incl. **Tejada Arevalo R.**), [*Saturn's Evolutionary History and Seismology: Survival of Deep Stably Stratified Regions in Evolutionary Models of Saturn Consistent with Ring Seismology*](https://arxiv.org/abs/2602.02647), Accepted to *ApJ*, *arXiv:2602.02647* (2026).
-6. Sur, A. et al., (incl. **Tejada Arevalo R.**), [*APPLE: An Evolution Code for Modeling Giant Planets*](https://iopscience.iop.org/article/10.3847/1538-4357/ad57c3), *ApJ* 971 (2024).
-7. Chen, Y. et al., (incl. **Tejada Arevalo R.**), [*Jupiter Atmospheric Models and Outer Boundary Conditions for Giant Planet Evolutionary Calculations*](https://iopscience.iop.org/article/10.3847/1538-4357/acf456), *ApJ* 957 (2023).
-7. **Tejada Arevalo R.**, et al., [*Stability Constrained Characterization of the 23 Myr Old V1298 Tau System: Do Young Planets Form in Mean Motion Resonance Chains?*](https://iopscience.iop.org/article/10.3847/2041-8213/ac70e0), *ApJL* 932 (2022).
-8. **Tejada Arevalo R.**, et al., [*Further Evidence for Tidal Spin-up of Hot Jupiter Host Stars*](https://iopscience.iop.org/article/10.3847/1538-4357/ac1429), *ApJ* 919 (2021).
+1. **Tejada Arevalo R.**, [*Different Inhomogeneous Evolutionary Histories for Uranus and Neptune*](https://iopscience.iop.org/article/10.3847/2041-8213/adf3a5), *ApJL* 989 (2025).
+1. **Tejada Arevalo R.**, et al., [*Jupiter Evolutionary Models Incorporating Stably Stratified Regions*](https://iopscience.iop.org/article/10.3847/1538-4357/ada030), *ApJ* 979 (2025).
+1. **Tejada Arevalo R.**, et al., [*Equations of State, Thermodynamics, and Miscibility Curves for Jovian Planet and Giant Exoplanet Evolutionary Models*](https://iopscience.iop.org/article/10.3847/1538-4365/ad6cd7), *ApJS* 274 (2024).
+1. **Tejada Arevalo R.**, et al., [*Stability Constrained Characterization of the 23 Myr Old V1298 Tau System: Do Young Planets Form in Mean Motion Resonance Chains?*](https://iopscience.iop.org/article/10.3847/2041-8213/ac70e0), *ApJL* 932 (2022).
+1. **Tejada Arevalo R.**, et al., [*Further Evidence for Tidal Spin-up of Hot Jupiter Host Stars*](https://iopscience.iop.org/article/10.3847/1538-4357/ac1429), *ApJ* 919 (2021).
+
+### Contributed
+
+1. Su, Y. et al., (incl. **Tejada Arevalo R.**), [*Saturn's Evolutionary History and Seismology: Survival of Deep Stably Stratified Regions in Evolutionary Models of Saturn Consistent with Ring Seismology*](https://arxiv.org/abs/2602.02647), Accepted to *ApJ*, *arXiv:2602.02647* (2026).
+1. Sur, A. et al., (incl. **Tejada Arevalo R.**), [*Simultaneous Evolutionary Fits for Jupiter and Saturn Incorporating Fuzzy Cores*](https://iopscience.iop.org/article/10.3847/2041-8213/adad62), *ApJL* 980 (2025).
+1. Sur, A. et al., (incl. **Tejada Arevalo R.**), [*APPLE: An Evolution Code for Modeling Giant Planets*](https://iopscience.iop.org/article/10.3847/1538-4357/ad57c3), *ApJ* 971 (2024).
+1. Chen, Y. et al., (incl. **Tejada Arevalo R.**), [*Jupiter Atmospheric Models and Outer Boundary Conditions for Giant Planet Evolutionary Calculations*](https://iopscience.iop.org/article/10.3847/1538-4357/acf456), *ApJ* 957 (2023).
+
+Full and up-to-date list on [NASA ADS](https://ui.adsabs.harvard.edu/search/q=orcid%3A0000-0001-6708-3427&sort=date%20desc).
 
 ## Recent Research Projects
 
@@ -163,6 +172,19 @@ The GitHub repo can be found [here](https://github.com/robtejada/eos/tree/main).
 
 Like many astronomers, I am passionate about the outdoors and visit national parks whenever I can. The photo shown here was taken at the Matanuska Glacier in Alaska. I am an enthusiastic weightlifter, and believe strongly in the connection between physical health and mental health. 
 <img src="/images/glacier_me.JPG" alt="At the Matanuska Glacier, Alaska" loading="lazy" style="max-width: 400px;" />
+
+## Contact
+
+<dl class="contact-grid">
+  <dt>Email</dt>
+  <dd><a href="mailto:roaareva@ucsc.edu">roaareva@ucsc.edu</a></dd>
+  <dt>Address</dt>
+  <dd>Department of Astronomy &amp; Astrophysics<br>University of California, Santa Cruz<br>1156 High Street, Santa Cruz, CA 95064</dd>
+  <dt>Profiles</dt>
+  <dd><a href="https://github.com/robtejada">GitHub</a> &middot; <a href="https://orcid.org/0000-0001-6708-3427">ORCID</a> &middot; <a href="https://ui.adsabs.harvard.edu/search/q=orcid%3A0000-0001-6708-3427&sort=date%20desc">NASA ADS</a></dd>
+</dl>
+
+<a class="cv-button" href="/assets/cv_2026.pdf">Download CV (PDF)</a>
 
 </div>
 </div>
